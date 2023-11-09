@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
       <Header></Header>
-      <p>LANDING PAGE, BAYBEE</p>
+      <p>PRETTY COLORS, BAYBEEE</p>
     </main>
   )
 }

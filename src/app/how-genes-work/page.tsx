@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
       <Header></Header>
-      <p>LANDING PAGE, BAYBEE</p>
+      <p>GENES TIME BAYBEE</p>
     </main>
   )
 }
