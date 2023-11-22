@@ -1,0 +1,1719 @@
+{
+	"Roses": {
+		"rryyWWss": {
+			"r": "00",
+			"y": "00",
+			"w": "00",
+			"s": "00",
+			"color": "White"
+		},
+		"rryyWWSs": {
+			"r": "00",
+			"y": "00",
+			"w": "00",
+			"s": "01",
+			"color": "White"
+		},
+		"rryyWWSS": {
+			"r": "00",
+			"y": "00",
+			"w": "00",
+			"s": "11",
+			"color": "White"
+		},
+		"rryyWwss": {
+			"r": "00",
+			"y": "00",
+			"w": "01",
+			"s": "00",
+			"color": "White (seed)"
+		},
+		"rryyWwSs": {
+			"r": "00",
+			"y": "00",
+			"w": "01",
+			"s": "01",
+			"color": "White"
+		},
+		"rryyWwSS": {
+			"r": "00",
+			"y": "00",
+			"w": "01",
+			"s": "11",
+			"color": "White"
+		},
+		"rryywwss": {
+			"r": "00",
+			"y": "00",
+			"w": "11",
+			"s": "00",
+			"color": "Purple"
+		},
+		"rryywwSs": {
+			"r": "00",
+			"y": "00",
+			"w": "11",
+			"s": "01",
+			"color": "Purple"
+		},
+		"rryywwSS": {
+			"r": "00",
+			"y": "00",
+			"w": "11",
+			"s": "11",
+			"color": "Purple"
+		},
+		"rrYyWWss": {
+			"r": "00",
+			"y": "01",
+			"w": "00",
+			"s": "00",
+			"color": "Yellow"
+		},
+		"rrYyWWSs": {
+			"r": "00",
+			"y": "01",
+			"w": "00",
+			"s": "01",
+			"color": "Yellow"
+		},
+		"rrYyWWSS": {
+			"r": "00",
+			"y": "01",
+			"w": "00",
+			"s": "11",
+			"color": "Yellow"
+		},
+		"rrYyWwss": {
+			"r": "00",
+			"y": "01",
+			"w": "01",
+			"s": "00",
+			"color": "White"
+		},
+		"rrYyWwSs": {
+			"r": "00",
+			"y": "01",
+			"w": "01",
+			"s": "01",
+			"color": "White"
+		},
+		"rrYyWwSS": {
+			"r": "00",
+			"y": "01",
+			"w": "01",
+			"s": "11",
+			"color": "White"
+		},
+		"rrYywwss": {
+			"r": "00",
+			"y": "01",
+			"w": "11",
+			"s": "00",
+			"color": "Purple"
+		},
+		"rrYywwSs": {
+			"r": "00",
+			"y": "01",
+			"w": "11",
+			"s": "01",
+			"color": "Purple"
+		},
+		"rrYywwSS": {
+			"r": "00",
+			"y": "01",
+			"w": "11",
+			"s": "11",
+			"color": "Purple"
+		},
+		"rrYYWWss": {
+			"r": "00",
+			"y": "11",
+			"w": "00",
+			"s": "00",
+			"color": "Yellow (seed)"
+		},
+		"rrYYWWSs": {
+			"r": "00",
+			"y": "11",
+			"w": "00",
+			"s": "01",
+			"color": "Yellow"
+		},
+		"rrYYWWSS": {
+			"r": "00",
+			"y": "11",
+			"w": "00",
+			"s": "11",
+			"color": "Yellow"
+		},
+		"rrYYWwss": {
+			"r": "00",
+			"y": "11",
+			"w": "01",
+			"s": "00",
+			"color": "Yellow"
+		},
+		"rrYYWwSs": {
+			"r": "00",
+			"y": "11",
+			"w": "01",
+			"s": "01",
+			"color": "Yellow"
+		},
+		"rrYYWwSS": {
+			"r": "00",
+			"y": "11",
+			"w": "01",
+			"s": "11",
+			"color": "Yellow"
+		},
+		"rrYYwwss": {
+			"r": "00",
+			"y": "11",
+			"w": "11",
+			"s": "00",
+			"color": "White"
+		},
+		"rrYYwwSs": {
+			"r": "00",
+			"y": "11",
+			"w": "11",
+			"s": "01",
+			"color": "White"
+		},
+		"rrYYwwSS": {
+			"r": "00",
+			"y": "11",
+			"w": "11",
+			"s": "11",
+			"color": "White"
+		},
+		"RryyWWss": {
+			"r": "01",
+			"y": "00",
+			"w": "00",
+			"s": "00",
+			"color": "Red"
+		},
+		"RryyWWSs": {
+			"r": "01",
+			"y": "00",
+			"w": "00",
+			"s": "01",
+			"color": "Pink"
+		},
+		"RryyWWSS": {
+			"r": "01",
+			"y": "00",
+			"w": "00",
+			"s": "11",
+			"color": "White"
+		},
+		"RryyWwss": {
+			"r": "01",
+			"y": "00",
+			"w": "01",
+			"s": "00",
+			"color": "Red"
+		},
+		"RryyWwSs": {
+			"r": "01",
+			"y": "00",
+			"w": "01",
+			"s": "01",
+			"color": "Pink"
+		},
+		"RryyWwSS": {
+			"r": "01",
+			"y": "00",
+			"w": "01",
+			"s": "11",
+			"color": "White"
+		},
+		"Rryywwss": {
+			"r": "01",
+			"y": "00",
+			"w": "11",
+			"s": "00",
+			"color": "Red"
+		},
+		"RryywwSs": {
+			"r": "01",
+			"y": "00",
+			"w": "11",
+			"s": "01",
+			"color": "Pink"
+		},
+		"RryywwSS": {
+			"r": "01",
+			"y": "00",
+			"w": "11",
+			"s": "11",
+			"color": "Purple"
+		},
+		"RrYyWWss": {
+			"r": "01",
+			"y": "01",
+			"w": "00",
+			"s": "00",
+			"color": "Orange"
+		},
+		"RrYyWWSs": {
+			"r": "01",
+			"y": "01",
+			"w": "00",
+			"s": "01",
+			"color": "Yellow"
+		},
+		"RrYyWWSS": {
+			"r": "01",
+			"y": "01",
+			"w": "00",
+			"s": "11",
+			"color": "Yellow"
+		},
+		"RrYyWwss": {
+			"r": "01",
+			"y": "01",
+			"w": "01",
+			"s": "00",
+			"color": "Red"
+		},
+		"RrYyWwSs": {
+			"r": "01",
+			"y": "01",
+			"w": "01",
+			"s": "01",
+			"color": "Pink"
+		},
+		"RrYyWwSS": {
+			"r": "01",
+			"y": "01",
+			"w": "01",
+			"s": "11",
+			"color": "White"
+		},
+		"RrYywwss": {
+			"r": "01",
+			"y": "01",
+			"w": "11",
+			"s": "00",
+			"color": "Red"
+		},
+		"RrYywwSs": {
+			"r": "01",
+			"y": "01",
+			"w": "11",
+			"s": "01",
+			"color": "Pink"
+		},
+		"RrYywwSS": {
+			"r": "01",
+			"y": "01",
+			"w": "11",
+			"s": "11",
+			"color": "Purple"
+		},
+		"RrYYWWss": {
+			"r": "01",
+			"y": "11",
+			"w": "00",
+			"s": "00",
+			"color": "Orange"
+		},
+		"RrYYWWSs": {
+			"r": "01",
+			"y": "11",
+			"w": "00",
+			"s": "01",
+			"color": "Yellow"
+		},
+		"RrYYWWSS": {
+			"r": "01",
+			"y": "11",
+			"w": "00",
+			"s": "11",
+			"color": "Yellow"
+		},
+		"RrYYWwss": {
+			"r": "01",
+			"y": "11",
+			"w": "01",
+			"s": "00",
+			"color": "Orange"
+		},
+		"RrYYWwSs": {
+			"r": "01",
+			"y": "11",
+			"w": "01",
+			"s": "01",
+			"color": "Yellow"
+		},
+		"RrYYWwSS": {
+			"r": "01",
+			"y": "11",
+			"w": "01",
+			"s": "11",
+			"color": "Yellow"
+		},
+		"RrYYwwss": {
+			"r": "01",
+			"y": "11",
+			"w": "11",
+			"s": "00",
+			"color": "Red"
+		},
+		"RrYYwwSs": {
+			"r": "01",
+			"y": "11",
+			"w": "11",
+			"s": "01",
+			"color": "Pink"
+		},
+		"RrYYwwSS": {
+			"r": "01",
+			"y": "11",
+			"w": "11",
+			"s": "11",
+			"color": "White"
+		},
+		"RRyyWWss": {
+			"r": "11",
+			"y": "00",
+			"w": "00",
+			"s": "00",
+			"color": "Black"
+		},
+		"RRyyWWSs": {
+			"r": "11",
+			"y": "00",
+			"w": "00",
+			"s": "01",
+			"color": "Red (seed)"
+		},
+		"RRyyWWSS": {
+			"r": "11",
+			"y": "00",
+			"w": "00",
+			"s": "11",
+			"color": "Pink"
+		},
+		"RRyyWwss": {
+			"r": "11",
+			"y": "00",
+			"w": "01",
+			"s": "00",
+			"color": "Black"
+		},
+		"RRyyWwSs": {
+			"r": "11",
+			"y": "00",
+			"w": "01",
+			"s": "01",
+			"color": "Red"
+		},
+		"RRyyWwSS": {
+			"r": "11",
+			"y": "00",
+			"w": "01",
+			"s": "11",
+			"color": "Pink"
+		},
+		"RRyywwss": {
+			"r": "11",
+			"y": "00",
+			"w": "11",
+			"s": "00",
+			"color": "Black"
+		},
+		"RRyywwSs": {
+			"r": "11",
+			"y": "00",
+			"w": "11",
+			"s": "01",
+			"color": "Red"
+		},
+		"RRyywwSS": {
+			"r": "11",
+			"y": "00",
+			"w": "11",
+			"s": "11",
+			"color": "Pink"
+		},
+		"RRYyWWss": {
+			"r": "11",
+			"y": "01",
+			"w": "00",
+			"s": "00",
+			"color": "Orange"
+		},
+		"RRYyWWSs": {
+			"r": "11",
+			"y": "01",
+			"w": "00",
+			"s": "01",
+			"color": "Orange"
+		},
+		"RRYyWWSS": {
+			"r": "11",
+			"y": "01",
+			"w": "00",
+			"s": "11",
+			"color": "Yellow"
+		},
+		"RRYyWwss": {
+			"r": "11",
+			"y": "01",
+			"w": "01",
+			"s": "00",
+			"color": "Red"
+		},
+		"RRYyWwSs": {
+			"r": "11",
+			"y": "01",
+			"w": "01",
+			"s": "01",
+			"color": "Red"
+		},
+		"RRYyWwSS": {
+			"r": "11",
+			"y": "01",
+			"w": "01",
+			"s": "11",
+			"color": "White"
+		},
+		"RRYywwss": {
+			"r": "11",
+			"y": "01",
+			"w": "11",
+			"s": "00",
+			"color": "Black"
+		},
+		"RRYywwSs": {
+			"r": "11",
+			"y": "01",
+			"w": "11",
+			"s": "01",
+			"color": "Red"
+		},
+		"RRYywwSS": {
+			"r": "11",
+			"y": "01",
+			"w": "11",
+			"s": "11",
+			"color": "Purple"
+		},
+		"RRYYWWss": {
+			"r": "11",
+			"y": "11",
+			"w": "00",
+			"s": "00",
+			"color": "Orange"
+		},
+		"RRYYWWSs": {
+			"r": "11",
+			"y": "11",
+			"w": "00",
+			"s": "01",
+			"color": "Orange"
+		},
+		"RRYYWWSS": {
+			"r": "11",
+			"y": "11",
+			"w": "00",
+			"s": "11",
+			"color": "Yellow"
+		},
+		"RRYYWwss": {
+			"r": "11",
+			"y": "11",
+			"w": "01",
+			"s": "00",
+			"color": "Orange"
+		},
+		"RRYYWwSs": {
+			"r": "11",
+			"y": "11",
+			"w": "01",
+			"s": "01",
+			"color": "Orange"
+		},
+		"RRYYWwSS": {
+			"r": "11",
+			"y": "11",
+			"w": "01",
+			"s": "11",
+			"color": "Yellow"
+		},
+		"RRYYwwss": {
+			"r": "11",
+			"y": "11",
+			"w": "11",
+			"s": "00",
+			"color": "Blue"
+		},
+		"RRYYwwSs": {
+			"r": "11",
+			"y": "11",
+			"w": "11",
+			"s": "01",
+			"color": "Red"
+		},
+		"RRYYwwSS": {
+			"r": "11",
+			"y": "11",
+			"w": "11",
+			"s": "11",
+			"color": "White"
+		}
+	},
+	"Cosmos": {
+		"rryyss": {
+			"r": "00",
+			"y": "00",
+			"s": "00",
+			"color": "White"
+		},
+		"rryySs": {
+			"r": "00",
+			"y": "00",
+			"s": "01",
+			"color": "White (seed)"
+		},
+		"rryySS": {
+			"r": "00",
+			"y": "00",
+			"s": "11",
+			"color": "White"
+		},
+		"rrYyss": {
+			"r": "00",
+			"y": "01",
+			"s": "00",
+			"color": "Yellow"
+		},
+		"rrYySs": {
+			"r": "00",
+			"y": "01",
+			"s": "01",
+			"color": "Yellow"
+		},
+		"rrYySS": {
+			"r": "00",
+			"y": "01",
+			"s": "11",
+			"color": "White"
+		},
+		"rrYYss": {
+			"r": "00",
+			"y": "11",
+			"s": "00",
+			"color": "Yellow"
+		},
+		"rrYYSs": {
+			"r": "00",
+			"y": "11",
+			"s": "01",
+			"color": "Yellow (seed)"
+		},
+		"rrYYSS": {
+			"r": "00",
+			"y": "11",
+			"s": "11",
+			"color": "Yellow"
+		},
+		"Rryyss": {
+			"r": "01",
+			"y": "00",
+			"s": "00",
+			"color": "Pink"
+		},
+		"RryySs": {
+			"r": "01",
+			"y": "00",
+			"s": "01",
+			"color": "Pink"
+		},
+		"RryySS": {
+			"r": "01",
+			"y": "00",
+			"s": "11",
+			"color": "Pink"
+		},
+		"RrYyss": {
+			"r": "01",
+			"y": "01",
+			"s": "00",
+			"color": "Orange"
+		},
+		"RrYySs": {
+			"r": "01",
+			"y": "01",
+			"s": "01",
+			"color": "Orange"
+		},
+		"RrYySS": {
+			"r": "01",
+			"y": "01",
+			"s": "11",
+			"color": "Pink"
+		},
+		"RrYYss": {
+			"r": "01",
+			"y": "11",
+			"s": "00",
+			"color": "Orange"
+		},
+		"RrYYSs": {
+			"r": "01",
+			"y": "11",
+			"s": "01",
+			"color": "Orange"
+		},
+		"RrYYSS": {
+			"r": "01",
+			"y": "11",
+			"s": "11",
+			"color": "Orange"
+		},
+		"RRyyss": {
+			"r": "11",
+			"y": "00",
+			"s": "00",
+			"color": "Red (seed)"
+		},
+		"RRyySs": {
+			"r": "11",
+			"y": "00",
+			"s": "01",
+			"color": "Red"
+		},
+		"RRyySS": {
+			"r": "11",
+			"y": "00",
+			"s": "11",
+			"color": "Red"
+		},
+		"RRYyss": {
+			"r": "11",
+			"y": "01",
+			"s": "00",
+			"color": "Orange"
+		},
+		"RRYySs": {
+			"r": "11",
+			"y": "01",
+			"s": "01",
+			"color": "Orange"
+		},
+		"RRYySS": {
+			"r": "11",
+			"y": "01",
+			"s": "11",
+			"color": "Red"
+		},
+		"RRYYss": {
+			"r": "11",
+			"y": "11",
+			"s": "00",
+			"color": "Black"
+		},
+		"RRYYSs": {
+			"r": "11",
+			"y": "11",
+			"s": "01",
+			"color": "Black"
+		},
+		"RRYYSS": {
+			"r": "11",
+			"y": "11",
+			"s": "11",
+			"color": "Red"
+		}
+	},
+	"Lilies": {
+		"rryyss": {
+			"r": "00",
+			"y": "00",
+			"s": "00",
+			"color": "White"
+		},
+		"rryySs": {
+			"r": "00",
+			"y": "00",
+			"s": "01",
+			"color": "White"
+		},
+		"rryySS": {
+			"r": "00",
+			"y": "00",
+			"s": "11",
+			"color": "White (seed)"
+		},
+		"rrYyss": {
+			"r": "00",
+			"y": "01",
+			"s": "00",
+			"color": "Yellow"
+		},
+		"rrYySs": {
+			"r": "00",
+			"y": "01",
+			"s": "01",
+			"color": "White"
+		},
+		"rrYySS": {
+			"r": "00",
+			"y": "01",
+			"s": "11",
+			"color": "White"
+		},
+		"rrYYss": {
+			"r": "00",
+			"y": "11",
+			"s": "00",
+			"color": "Yellow (seed)"
+		},
+		"rrYYSs": {
+			"r": "00",
+			"y": "11",
+			"s": "01",
+			"color": "Yellow"
+		},
+		"rrYYSS": {
+			"r": "00",
+			"y": "11",
+			"s": "11",
+			"color": "White"
+		},
+		"Rryyss": {
+			"r": "01",
+			"y": "00",
+			"s": "00",
+			"color": "Red"
+		},
+		"RryySs": {
+			"r": "01",
+			"y": "00",
+			"s": "01",
+			"color": "Pink"
+		},
+		"RryySS": {
+			"r": "01",
+			"y": "00",
+			"s": "11",
+			"color": "White"
+		},
+		"RrYyss": {
+			"r": "01",
+			"y": "01",
+			"s": "00",
+			"color": "Orange"
+		},
+		"RrYySs": {
+			"r": "01",
+			"y": "01",
+			"s": "01",
+			"color": "Yellow"
+		},
+		"RrYySS": {
+			"r": "01",
+			"y": "01",
+			"s": "11",
+			"color": "Yellow"
+		},
+		"RrYYss": {
+			"r": "01",
+			"y": "11",
+			"s": "00",
+			"color": "Orange"
+		},
+		"RrYYSs": {
+			"r": "01",
+			"y": "11",
+			"s": "01",
+			"color": "Yellow"
+		},
+		"RrYYSS": {
+			"r": "01",
+			"y": "11",
+			"s": "11",
+			"color": "Yellow"
+		},
+		"RRyyss": {
+			"r": "11",
+			"y": "00",
+			"s": "00",
+			"color": "Black"
+		},
+		"RRyySs": {
+			"r": "11",
+			"y": "00",
+			"s": "01",
+			"color": "Red (seed)"
+		},
+		"RRyySS": {
+			"r": "11",
+			"y": "00",
+			"s": "11",
+			"color": "Pink"
+		},
+		"RRYyss": {
+			"r": "11",
+			"y": "01",
+			"s": "00",
+			"color": "Black"
+		},
+		"RRYySs": {
+			"r": "11",
+			"y": "01",
+			"s": "01",
+			"color": "Red"
+		},
+		"RRYySS": {
+			"r": "11",
+			"y": "01",
+			"s": "11",
+			"color": "Pink"
+		},
+		"RRYYss": {
+			"r": "11",
+			"y": "11",
+			"s": "00",
+			"color": "Orange"
+		},
+		"RRYYSs": {
+			"r": "11",
+			"y": "11",
+			"s": "01",
+			"color": "Orange"
+		},
+		"RRYYSS": {
+			"r": "11",
+			"y": "11",
+			"s": "11",
+			"color": "White"
+		}
+	},
+	"Pansies": {
+		"rryyWW": {
+			"r": "00",
+			"y": "00",
+			"w": "00",
+			"color": "White"
+		},
+		"rryyWw": {
+			"r": "00",
+			"y": "00",
+			"w": "01",
+			"color": "White (seed)"
+		},
+		"rryyww": {
+			"r": "00",
+			"y": "00",
+			"w": "11",
+			"color": "Blue"
+		},
+		"rrYyWW": {
+			"r": "00",
+			"y": "01",
+			"w": "00",
+			"color": "Yellow"
+		},
+		"rrYyWw": {
+			"r": "00",
+			"y": "01",
+			"w": "01",
+			"color": "Yellow"
+		},
+		"rrYyww": {
+			"r": "00",
+			"y": "01",
+			"w": "11",
+			"color": "Blue"
+		},
+		"rrYYWW": {
+			"r": "00",
+			"y": "11",
+			"w": "00",
+			"color": "Yellow (seed)"
+		},
+		"rrYYWw": {
+			"r": "00",
+			"y": "11",
+			"w": "01",
+			"color": "Yellow"
+		},
+		"rrYYww": {
+			"r": "00",
+			"y": "11",
+			"w": "11",
+			"color": "Yellow"
+		},
+		"RryyWW": {
+			"r": "01",
+			"y": "00",
+			"w": "00",
+			"color": "Red"
+		},
+		"RryyWw": {
+			"r": "01",
+			"y": "00",
+			"w": "01",
+			"color": "Red"
+		},
+		"Rryyww": {
+			"r": "01",
+			"y": "00",
+			"w": "11",
+			"color": "Blue"
+		},
+		"RrYyWW": {
+			"r": "01",
+			"y": "01",
+			"w": "00",
+			"color": "Orange"
+		},
+		"RrYyWw": {
+			"r": "01",
+			"y": "01",
+			"w": "01",
+			"color": "Orange"
+		},
+		"RrYyww": {
+			"r": "01",
+			"y": "01",
+			"w": "11",
+			"color": "Orange"
+		},
+		"RrYYWW": {
+			"r": "01",
+			"y": "11",
+			"w": "00",
+			"color": "Yellow"
+		},
+		"RrYYWw": {
+			"r": "01",
+			"y": "11",
+			"w": "01",
+			"color": "Yellow"
+		},
+		"RrYYww": {
+			"r": "01",
+			"y": "11",
+			"w": "11",
+			"color": "Yellow"
+		},
+		"RRyyWW": {
+			"r": "11",
+			"y": "00",
+			"w": "00",
+			"color": "Red (seed)"
+		},
+		"RRyyWw": {
+			"r": "11",
+			"y": "00",
+			"w": "01",
+			"color": "Red"
+		},
+		"RRyyww": {
+			"r": "11",
+			"y": "00",
+			"w": "11",
+			"color": "Purple"
+		},
+		"RRYyWW": {
+			"r": "11",
+			"y": "01",
+			"w": "00",
+			"color": "Red"
+		},
+		"RRYyWw": {
+			"r": "11",
+			"y": "01",
+			"w": "01",
+			"color": "Red"
+		},
+		"RRYyww": {
+			"r": "11",
+			"y": "01",
+			"w": "11",
+			"color": "Purple"
+		},
+		"RRYYWW": {
+			"r": "11",
+			"y": "11",
+			"w": "00",
+			"color": "Orange"
+		},
+		"RRYYWw": {
+			"r": "11",
+			"y": "11",
+			"w": "01",
+			"color": "Orange"
+		},
+		"RRYYww": {
+			"r": "11",
+			"y": "11",
+			"w": "11",
+			"color": "Purple"
+		}
+	},
+	"Hyacinths": {
+		"rryyWW": {
+			"r": "00",
+			"y": "00",
+			"w": "00",
+			"color": "White"
+		},
+		"rryyWw": {
+			"r": "00",
+			"y": "00",
+			"w": "01",
+			"color": "White (seed)"
+		},
+		"rryyww": {
+			"r": "00",
+			"y": "00",
+			"w": "11",
+			"color": "Blue"
+		},
+		"rrYyWW": {
+			"r": "00",
+			"y": "01",
+			"w": "00",
+			"color": "Yellow"
+		},
+		"rrYyWw": {
+			"r": "00",
+			"y": "01",
+			"w": "01",
+			"color": "Yellow"
+		},
+		"rrYyww": {
+			"r": "00",
+			"y": "01",
+			"w": "11",
+			"color": "White"
+		},
+		"rrYYWW": {
+			"r": "00",
+			"y": "11",
+			"w": "00",
+			"color": "Yellow (seed)"
+		},
+		"rrYYWw": {
+			"r": "00",
+			"y": "11",
+			"w": "01",
+			"color": "Yellow"
+		},
+		"rrYYww": {
+			"r": "00",
+			"y": "11",
+			"w": "11",
+			"color": "Yellow"
+		},
+		"RryyWW": {
+			"r": "01",
+			"y": "00",
+			"w": "00",
+			"color": "Red"
+		},
+		"RryyWw": {
+			"r": "01",
+			"y": "00",
+			"w": "01",
+			"color": "Pink"
+		},
+		"Rryyww": {
+			"r": "01",
+			"y": "00",
+			"w": "11",
+			"color": "White"
+		},
+		"RrYyWW": {
+			"r": "01",
+			"y": "01",
+			"w": "00",
+			"color": "Orange"
+		},
+		"RrYyWw": {
+			"r": "01",
+			"y": "01",
+			"w": "01",
+			"color": "Yellow"
+		},
+		"RrYyww": {
+			"r": "01",
+			"y": "01",
+			"w": "11",
+			"color": "Yellow"
+		},
+		"RrYYWW": {
+			"r": "01",
+			"y": "11",
+			"w": "00",
+			"color": "Orange"
+		},
+		"RrYYWw": {
+			"r": "01",
+			"y": "11",
+			"w": "01",
+			"color": "Yellow"
+		},
+		"RrYYww": {
+			"r": "01",
+			"y": "11",
+			"w": "11",
+			"color": "Yellow"
+		},
+		"RRyyWW": {
+			"r": "11",
+			"y": "00",
+			"w": "00",
+			"color": "Red"
+		},
+		"RRyyWw": {
+			"r": "11",
+			"y": "00",
+			"w": "01",
+			"color": "Red (seed)"
+		},
+		"RRyyww": {
+			"r": "11",
+			"y": "00",
+			"w": "11",
+			"color": "Red"
+		},
+		"RRYyWW": {
+			"r": "11",
+			"y": "01",
+			"w": "00",
+			"color": "Blue"
+		},
+		"RRYyWw": {
+			"r": "11",
+			"y": "01",
+			"w": "01",
+			"color": "Red"
+		},
+		"RRYyww": {
+			"r": "11",
+			"y": "01",
+			"w": "11",
+			"color": "Red"
+		},
+		"RRYYWW": {
+			"r": "11",
+			"y": "11",
+			"w": "00",
+			"color": "Purple"
+		},
+		"RRYYWw": {
+			"r": "11",
+			"y": "11",
+			"w": "01",
+			"color": "Purple"
+		},
+		"RRYYww": {
+			"r": "11",
+			"y": "11",
+			"w": "11",
+			"color": "Purple"
+		}
+	},
+	"Tulips": {
+		"rryyss": {
+			"r": "00",
+			"y": "00",
+			"s": "00",
+			"color": "White"
+		},
+		"rryySs": {
+			"r": "00",
+			"y": "00",
+			"s": "01",
+			"color": "White (seed)"
+		},
+		"rryySS": {
+			"r": "00",
+			"y": "00",
+			"s": "11",
+			"color": "White"
+		},
+		"rrYyss": {
+			"r": "00",
+			"y": "01",
+			"s": "00",
+			"color": "Yellow"
+		},
+		"rrYySs": {
+			"r": "00",
+			"y": "01",
+			"s": "01",
+			"color": "Yellow"
+		},
+		"rrYySS": {
+			"r": "00",
+			"y": "01",
+			"s": "11",
+			"color": "White"
+		},
+		"rrYYss": {
+			"r": "00",
+			"y": "11",
+			"s": "00",
+			"color": "Yellow (seed)"
+		},
+		"rrYYSs": {
+			"r": "00",
+			"y": "11",
+			"s": "01",
+			"color": "Yellow"
+		},
+		"rrYYSS": {
+			"r": "00",
+			"y": "11",
+			"s": "11",
+			"color": "Yellow"
+		},
+		"Rryyss": {
+			"r": "01",
+			"y": "00",
+			"s": "00",
+			"color": "Red"
+		},
+		"RryySs": {
+			"r": "01",
+			"y": "00",
+			"s": "01",
+			"color": "Pink"
+		},
+		"RryySS": {
+			"r": "01",
+			"y": "00",
+			"s": "11",
+			"color": "White"
+		},
+		"RrYyss": {
+			"r": "01",
+			"y": "01",
+			"s": "00",
+			"color": "Orange"
+		},
+		"RrYySs": {
+			"r": "01",
+			"y": "01",
+			"s": "01",
+			"color": "Yellow"
+		},
+		"RrYySS": {
+			"r": "01",
+			"y": "01",
+			"s": "11",
+			"color": "Yellow"
+		},
+		"RrYYss": {
+			"r": "01",
+			"y": "11",
+			"s": "00",
+			"color": "Orange"
+		},
+		"RrYYSs": {
+			"r": "01",
+			"y": "11",
+			"s": "01",
+			"color": "Yellow"
+		},
+		"RrYYSS": {
+			"r": "01",
+			"y": "11",
+			"s": "11",
+			"color": "Yellow"
+		},
+		"RRyyss": {
+			"r": "11",
+			"y": "00",
+			"s": "00",
+			"color": "Black"
+		},
+		"RRyySs": {
+			"r": "11",
+			"y": "00",
+			"s": "01",
+			"color": "Red (seed)"
+		},
+		"RRyySS": {
+			"r": "11",
+			"y": "00",
+			"s": "11",
+			"color": "Red"
+		},
+		"RRYyss": {
+			"r": "11",
+			"y": "01",
+			"s": "00",
+			"color": "Black"
+		},
+		"RRYySs": {
+			"r": "11",
+			"y": "01",
+			"s": "01",
+			"color": "Red"
+		},
+		"RRYySS": {
+			"r": "11",
+			"y": "01",
+			"s": "11",
+			"color": "Red"
+		},
+		"RRYYss": {
+			"r": "11",
+			"y": "11",
+			"s": "00",
+			"color": "Purple"
+		},
+		"RRYYSs": {
+			"r": "11",
+			"y": "11",
+			"s": "01",
+			"color": "Purple"
+		},
+		"RRYYSS": {
+			"r": "11",
+			"y": "11",
+			"s": "11",
+			"color": "Purple"
+		}
+	},
+	"Mums": {
+		"rryyWW": {
+			"r": "00",
+			"y": "00",
+			"w": "00",
+			"color": "White"
+		},
+		"rryyWw": {
+			"r": "00",
+			"y": "00",
+			"w": "01",
+			"color": "White (seed)"
+		},
+		"rryyww": {
+			"r": "00",
+			"y": "00",
+			"w": "11",
+			"color": "Purple"
+		},
+		"rrYyWW": {
+			"r": "00",
+			"y": "01",
+			"w": "00",
+			"color": "Yellow"
+		},
+		"rrYyWw": {
+			"r": "00",
+			"y": "01",
+			"w": "01",
+			"color": "Yellow"
+		},
+		"rrYyww": {
+			"r": "00",
+			"y": "01",
+			"w": "11",
+			"color": "White"
+		},
+		"rrYYWW": {
+			"r": "00",
+			"y": "11",
+			"w": "00",
+			"color": "Yellow (seed)"
+		},
+		"rrYYWw": {
+			"r": "00",
+			"y": "11",
+			"w": "01",
+			"color": "Yellow"
+		},
+		"rrYYww": {
+			"r": "00",
+			"y": "11",
+			"w": "11",
+			"color": "Yellow"
+		},
+		"RryyWW": {
+			"r": "01",
+			"y": "00",
+			"w": "00",
+			"color": "Pink"
+		},
+		"RryyWw": {
+			"r": "01",
+			"y": "00",
+			"w": "01",
+			"color": "Pink"
+		},
+		"Rryyww": {
+			"r": "01",
+			"y": "00",
+			"w": "11",
+			"color": "Pink"
+		},
+		"RrYyWW": {
+			"r": "01",
+			"y": "01",
+			"w": "00",
+			"color": "Yellow"
+		},
+		"RrYyWw": {
+			"r": "01",
+			"y": "01",
+			"w": "01",
+			"color": "Red"
+		},
+		"RrYyww": {
+			"r": "01",
+			"y": "01",
+			"w": "11",
+			"color": "Pink"
+		},
+		"RrYYWW": {
+			"r": "01",
+			"y": "11",
+			"w": "00",
+			"color": "Purple"
+		},
+		"RrYYWw": {
+			"r": "01",
+			"y": "11",
+			"w": "01",
+			"color": "Purple"
+		},
+		"RrYYww": {
+			"r": "01",
+			"y": "11",
+			"w": "11",
+			"color": "Purple"
+		},
+		"RRyyWW": {
+			"r": "11",
+			"y": "00",
+			"w": "00",
+			"color": "Red (seed)"
+		},
+		"RRyyWw": {
+			"r": "11",
+			"y": "00",
+			"w": "01",
+			"color": "Red"
+		},
+		"RRyyww": {
+			"r": "11",
+			"y": "00",
+			"w": "11",
+			"color": "Red"
+		},
+		"RRYyWW": {
+			"r": "11",
+			"y": "01",
+			"w": "00",
+			"color": "Purple"
+		},
+		"RRYyWw": {
+			"r": "11",
+			"y": "01",
+			"w": "01",
+			"color": "Purple"
+		},
+		"RRYyww": {
+			"r": "11",
+			"y": "01",
+			"w": "11",
+			"color": "Red"
+		},
+		"RRYYWW": {
+			"r": "11",
+			"y": "11",
+			"w": "00",
+			"color": "Green"
+		},
+		"RRYYWw": {
+			"r": "11",
+			"y": "11",
+			"w": "01",
+			"color": "Green"
+		},
+		"RRYYww": {
+			"r": "11",
+			"y": "11",
+			"w": "11",
+			"color": "Red"
+		}
+	},
+	"Windflowers": {
+		"rrooWW": {
+			"r": "00",
+			"oy": "00",
+			"w": "00",
+			"color": "White"
+		},
+		"rrooWw": {
+			"r": "00",
+			"oy": "00",
+			"w": "01",
+			"color": "White (seed)"
+		},
+		"rrooww": {
+			"r": "00",
+			"oy": "00",
+			"w": "11",
+			"color": "Blue"
+		},
+		"rrOoWW": {
+			"r": "00",
+			"oy": "01",
+			"w": "00",
+			"color": "Orange"
+		},
+		"rrOoWw": {
+			"r": "00",
+			"oy": "01",
+			"w": "01",
+			"color": "Orange"
+		},
+		"rrOoww": {
+			"r": "00",
+			"oy": "01",
+			"w": "11",
+			"color": "Blue"
+		},
+		"rrOOWW": {
+			"r": "00",
+			"oy": "11",
+			"w": "00",
+			"color": "Orange (seed)"
+		},
+		"rrOOWw": {
+			"r": "00",
+			"oy": "11",
+			"w": "01",
+			"color": "Orange"
+		},
+		"rrOOww": {
+			"r": "00",
+			"oy": "11",
+			"w": "11",
+			"color": "Orange"
+		},
+		"RrooWW": {
+			"r": "01",
+			"oy": "00",
+			"w": "00",
+			"color": "Red"
+		},
+		"RrooWw": {
+			"r": "01",
+			"oy": "00",
+			"w": "01",
+			"color": "Red"
+		},
+		"Rrooww": {
+			"r": "01",
+			"oy": "00",
+			"w": "11",
+			"color": "Blue"
+		},
+		"RrOoWW": {
+			"r": "01",
+			"oy": "01",
+			"w": "00",
+			"color": "Pink"
+		},
+		"RrOoWw": {
+			"r": "01",
+			"oy": "01",
+			"w": "01",
+			"color": "Pink"
+		},
+		"RrOoww": {
+			"r": "01",
+			"oy": "01",
+			"w": "11",
+			"color": "Pink"
+		},
+		"RrOOWW": {
+			"r": "01",
+			"oy": "11",
+			"w": "00",
+			"color": "Orange"
+		},
+		"RrOOWw": {
+			"r": "01",
+			"oy": "11",
+			"w": "01",
+			"color": "Orange"
+		},
+		"RrOOww": {
+			"r": "01",
+			"oy": "11",
+			"w": "11",
+			"color": "Orange"
+		},
+		"RRooWW": {
+			"r": "11",
+			"oy": "00",
+			"w": "00",
+			"color": "Red (seed)"
+		},
+		"RRooWw": {
+			"r": "11",
+			"oy": "00",
+			"w": "01",
+			"color": "Red"
+		},
+		"RRooww": {
+			"r": "11",
+			"oy": "00",
+			"w": "11",
+			"color": "Purple"
+		},
+		"RROoWW": {
+			"r": "11",
+			"oy": "01",
+			"w": "00",
+			"color": "Red"
+		},
+		"RROoWw": {
+			"r": "11",
+			"oy": "01",
+			"w": "01",
+			"color": "Red"
+		},
+		"RROoww": {
+			"r": "11",
+			"oy": "01",
+			"w": "11",
+			"color": "Purple"
+		},
+		"RROOWW": {
+			"r": "11",
+			"oy": "11",
+			"w": "00",
+			"color": "Pink"
+		},
+		"RROOWw": {
+			"r": "11",
+			"oy": "11",
+			"w": "01",
+			"color": "Pink"
+		},
+		"RROOww": {
+			"r": "11",
+			"oy": "11",
+			"w": "11",
+			"color": "Purple"
+		}
+	}
+}

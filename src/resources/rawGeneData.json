@@ -1,0 +1,3019 @@
+{
+    "Roses": [
+        {
+            "hex": "00",
+            "genotype": "rryyWWss",
+            "numeric": "0 - 0 - 0 - 0",
+            "binary": "00 - 00 - 00 - 00",
+            "r": "00",
+            "y": "00",
+            "w": "00",
+            "s": "00",
+            "color": "White"
+        },
+        {
+            "hex": "01",
+            "genotype": "rryyWWSs",
+            "numeric": "0 - 0 - 0 - 1",
+            "binary": "00 - 00 - 00 - 01",
+            "r": "00",
+            "y": "00",
+            "w": "00",
+            "s": "01",
+            "color": "White"
+        },
+        {
+            "hex": "03",
+            "genotype": "rryyWWSS",
+            "numeric": "0 - 0 - 0 - 2",
+            "binary": "00 - 00 - 00 - 11",
+            "r": "00",
+            "y": "00",
+            "w": "00",
+            "s": "11",
+            "color": "White"
+        },
+        {
+            "hex": "04",
+            "genotype": "rryyWwss",
+            "numeric": "0 - 0 - 1 - 0",
+            "binary": "00 - 00 - 01 - 00",
+            "r": "00",
+            "y": "00",
+            "w": "01",
+            "s": "00",
+            "color": "White (seed)"
+        },
+        {
+            "hex": "05",
+            "genotype": "rryyWwSs",
+            "numeric": "0 - 0 - 1 - 1",
+            "binary": "00 - 00 - 01 - 01",
+            "r": "00",
+            "y": "00",
+            "w": "01",
+            "s": "01",
+            "color": "White"
+        },
+        {
+            "hex": "07",
+            "genotype": "rryyWwSS",
+            "numeric": "0 - 0 - 1 - 2",
+            "binary": "00 - 00 - 01 - 11",
+            "r": "00",
+            "y": "00",
+            "w": "01",
+            "s": "11",
+            "color": "White"
+        },
+        {
+            "hex": "0c",
+            "genotype": "rryywwss",
+            "numeric": "0 - 0 - 2 - 0",
+            "binary": "00 - 00 - 11 - 00",
+            "r": "00",
+            "y": "00",
+            "w": "11",
+            "s": "00",
+            "color": "Purple"
+        },
+        {
+            "hex": "0d",
+            "genotype": "rryywwSs",
+            "numeric": "0 - 0 - 2 - 1",
+            "binary": "00 - 00 - 11 - 01",
+            "r": "00",
+            "y": "00",
+            "w": "11",
+            "s": "01",
+            "color": "Purple"
+        },
+        {
+            "hex": "0f",
+            "genotype": "rryywwSS",
+            "numeric": "0 - 0 - 2 - 2",
+            "binary": "00 - 00 - 11 - 11",
+            "r": "00",
+            "y": "00",
+            "w": "11",
+            "s": "11",
+            "color": "Purple"
+        },
+        {
+            "hex": "10",
+            "genotype": "rrYyWWss",
+            "numeric": "0 - 1 - 0 - 0",
+            "binary": "00 - 01 - 00 - 00",
+            "r": "00",
+            "y": "01",
+            "w": "00",
+            "s": "00",
+            "color": "Yellow"
+        },
+        {
+            "hex": "11",
+            "genotype": "rrYyWWSs",
+            "numeric": "0 - 1 - 0 - 1",
+            "binary": "00 - 01 - 00 - 01",
+            "r": "00",
+            "y": "01",
+            "w": "00",
+            "s": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "13",
+            "genotype": "rrYyWWSS",
+            "numeric": "0 - 1 - 0 - 2",
+            "binary": "00 - 01 - 00 - 11",
+            "r": "00",
+            "y": "01",
+            "w": "00",
+            "s": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "14",
+            "genotype": "rrYyWwss",
+            "numeric": "0 - 1 - 1 - 0",
+            "binary": "00 - 01 - 01 - 00",
+            "r": "00",
+            "y": "01",
+            "w": "01",
+            "s": "00",
+            "color": "White"
+        },
+        {
+            "hex": "15",
+            "genotype": "rrYyWwSs",
+            "numeric": "0 - 1 - 1 - 1",
+            "binary": "00 - 01 - 01 - 01",
+            "r": "00",
+            "y": "01",
+            "w": "01",
+            "s": "01",
+            "color": "White"
+        },
+        {
+            "hex": "17",
+            "genotype": "rrYyWwSS",
+            "numeric": "0 - 1 - 1 - 2",
+            "binary": "00 - 01 - 01 - 11",
+            "r": "00",
+            "y": "01",
+            "w": "01",
+            "s": "11",
+            "color": "White"
+        },
+        {
+            "hex": "1c",
+            "genotype": "rrYywwss",
+            "numeric": "0 - 1 - 2 - 0",
+            "binary": "00 - 01 - 11 - 00",
+            "r": "00",
+            "y": "01",
+            "w": "11",
+            "s": "00",
+            "color": "Purple"
+        },
+        {
+            "hex": "1d",
+            "genotype": "rrYywwSs",
+            "numeric": "0 - 1 - 2 - 1",
+            "binary": "00 - 01 - 11 - 01",
+            "r": "00",
+            "y": "01",
+            "w": "11",
+            "s": "01",
+            "color": "Purple"
+        },
+        {
+            "hex": "1f",
+            "genotype": "rrYywwSS",
+            "numeric": "0 - 1 - 2 - 2",
+            "binary": "00 - 01 - 11 - 11",
+            "r": "00",
+            "y": "01",
+            "w": "11",
+            "s": "11",
+            "color": "Purple"
+        },
+        {
+            "hex": "30",
+            "genotype": "rrYYWWss",
+            "numeric": "0 - 2 - 0 - 0",
+            "binary": "00 - 11 - 00 - 00",
+            "r": "00",
+            "y": "11",
+            "w": "00",
+            "s": "00",
+            "color": "Yellow (seed)"
+        },
+        {
+            "hex": "31",
+            "genotype": "rrYYWWSs",
+            "numeric": "0 - 2 - 0 - 1",
+            "binary": "00 - 11 - 00 - 01",
+            "r": "00",
+            "y": "11",
+            "w": "00",
+            "s": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "33",
+            "genotype": "rrYYWWSS",
+            "numeric": "0 - 2 - 0 - 2",
+            "binary": "00 - 11 - 00 - 11",
+            "r": "00",
+            "y": "11",
+            "w": "00",
+            "s": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "34",
+            "genotype": "rrYYWwss",
+            "numeric": "0 - 2 - 1 - 0",
+            "binary": "00 - 11 - 01 - 00",
+            "r": "00",
+            "y": "11",
+            "w": "01",
+            "s": "00",
+            "color": "Yellow"
+        },
+        {
+            "hex": "35",
+            "genotype": "rrYYWwSs",
+            "numeric": "0 - 2 - 1 - 1",
+            "binary": "00 - 11 - 01 - 01",
+            "r": "00",
+            "y": "11",
+            "w": "01",
+            "s": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "37",
+            "genotype": "rrYYWwSS",
+            "numeric": "0 - 2 - 1 - 2",
+            "binary": "00 - 11 - 01 - 11",
+            "r": "00",
+            "y": "11",
+            "w": "01",
+            "s": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "3c",
+            "genotype": "rrYYwwss",
+            "numeric": "0 - 2 - 2 - 0",
+            "binary": "00 - 11 - 11 - 00",
+            "r": "00",
+            "y": "11",
+            "w": "11",
+            "s": "00",
+            "color": "White"
+        },
+        {
+            "hex": "3d",
+            "genotype": "rrYYwwSs",
+            "numeric": "0 - 2 - 2 - 1",
+            "binary": "00 - 11 - 11 - 01",
+            "r": "00",
+            "y": "11",
+            "w": "11",
+            "s": "01",
+            "color": "White"
+        },
+        {
+            "hex": "3f",
+            "genotype": "rrYYwwSS",
+            "numeric": "0 - 2 - 2 - 2",
+            "binary": "00 - 11 - 11 - 11",
+            "r": "00",
+            "y": "11",
+            "w": "11",
+            "s": "11",
+            "color": "White"
+        },
+        {
+            "hex": "40",
+            "genotype": "RryyWWss",
+            "numeric": "1 - 0 - 0 - 0",
+            "binary": "01 - 00 - 00 - 00",
+            "r": "01",
+            "y": "00",
+            "w": "00",
+            "s": "00",
+            "color": "Red"
+        },
+        {
+            "hex": "41",
+            "genotype": "RryyWWSs",
+            "numeric": "1 - 0 - 0 - 1",
+            "binary": "01 - 00 - 00 - 01",
+            "r": "01",
+            "y": "00",
+            "w": "00",
+            "s": "01",
+            "color": "Pink"
+        },
+        {
+            "hex": "43",
+            "genotype": "RryyWWSS",
+            "numeric": "1 - 0 - 0 - 2",
+            "binary": "01 - 00 - 00 - 11",
+            "r": "01",
+            "y": "00",
+            "w": "00",
+            "s": "11",
+            "color": "White"
+        },
+        {
+            "hex": "44",
+            "genotype": "RryyWwss",
+            "numeric": "1 - 0 - 1 - 0",
+            "binary": "01 - 00 - 01 - 00",
+            "r": "01",
+            "y": "00",
+            "w": "01",
+            "s": "00",
+            "color": "Red"
+        },
+        {
+            "hex": "45",
+            "genotype": "RryyWwSs",
+            "numeric": "1 - 0 - 1 - 1",
+            "binary": "01 - 00 - 01 - 01",
+            "r": "01",
+            "y": "00",
+            "w": "01",
+            "s": "01",
+            "color": "Pink"
+        },
+        {
+            "hex": "47",
+            "genotype": "RryyWwSS",
+            "numeric": "1 - 0 - 1 - 2",
+            "binary": "01 - 00 - 01 - 11",
+            "r": "01",
+            "y": "00",
+            "w": "01",
+            "s": "11",
+            "color": "White"
+        },
+        {
+            "hex": "4c",
+            "genotype": "Rryywwss",
+            "numeric": "1 - 0 - 2 - 0",
+            "binary": "01 - 00 - 11 - 00",
+            "r": "01",
+            "y": "00",
+            "w": "11",
+            "s": "00",
+            "color": "Red"
+        },
+        {
+            "hex": "4d",
+            "genotype": "RryywwSs",
+            "numeric": "1 - 0 - 2 - 1",
+            "binary": "01 - 00 - 11 - 01",
+            "r": "01",
+            "y": "00",
+            "w": "11",
+            "s": "01",
+            "color": "Pink"
+        },
+        {
+            "hex": "4f",
+            "genotype": "RryywwSS",
+            "numeric": "1 - 0 - 2 - 2",
+            "binary": "01 - 00 - 11 - 11",
+            "r": "01",
+            "y": "00",
+            "w": "11",
+            "s": "11",
+            "color": "Purple"
+        },
+        {
+            "hex": "50",
+            "genotype": "RrYyWWss",
+            "numeric": "1 - 1 - 0 - 0",
+            "binary": "01 - 01 - 00 - 00",
+            "r": "01",
+            "y": "01",
+            "w": "00",
+            "s": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "51",
+            "genotype": "RrYyWWSs",
+            "numeric": "1 - 1 - 0 - 1",
+            "binary": "01 - 01 - 00 - 01",
+            "r": "01",
+            "y": "01",
+            "w": "00",
+            "s": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "53",
+            "genotype": "RrYyWWSS",
+            "numeric": "1 - 1 - 0 - 2",
+            "binary": "01 - 01 - 00 - 11",
+            "r": "01",
+            "y": "01",
+            "w": "00",
+            "s": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "54",
+            "genotype": "RrYyWwss",
+            "numeric": "1 - 1 - 1 - 0",
+            "binary": "01 - 01 - 01 - 00",
+            "r": "01",
+            "y": "01",
+            "w": "01",
+            "s": "00",
+            "color": "Red"
+        },
+        {
+            "hex": "55",
+            "genotype": "RrYyWwSs",
+            "numeric": "1 - 1 - 1 - 1",
+            "binary": "01 - 01 - 01 - 01",
+            "r": "01",
+            "y": "01",
+            "w": "01",
+            "s": "01",
+            "color": "Pink"
+        },
+        {
+            "hex": "57",
+            "genotype": "RrYyWwSS",
+            "numeric": "1 - 1 - 1 - 2",
+            "binary": "01 - 01 - 01 - 11",
+            "r": "01",
+            "y": "01",
+            "w": "01",
+            "s": "11",
+            "color": "White"
+        },
+        {
+            "hex": "5c",
+            "genotype": "RrYywwss",
+            "numeric": "1 - 1 - 2 - 0",
+            "binary": "01 - 01 - 11 - 00",
+            "r": "01",
+            "y": "01",
+            "w": "11",
+            "s": "00",
+            "color": "Red"
+        },
+        {
+            "hex": "5d",
+            "genotype": "RrYywwSs",
+            "numeric": "1 - 1 - 2 - 1",
+            "binary": "01 - 01 - 11 - 01",
+            "r": "01",
+            "y": "01",
+            "w": "11",
+            "s": "01",
+            "color": "Pink"
+        },
+        {
+            "hex": "5f",
+            "genotype": "RrYywwSS",
+            "numeric": "1 - 1 - 2 - 2",
+            "binary": "01 - 01 - 11 - 11",
+            "r": "01",
+            "y": "01",
+            "w": "11",
+            "s": "11",
+            "color": "Purple"
+        },
+        {
+            "hex": "70",
+            "genotype": "RrYYWWss",
+            "numeric": "1 - 2 - 0 - 0",
+            "binary": "01 - 11 - 00 - 00",
+            "r": "01",
+            "y": "11",
+            "w": "00",
+            "s": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "71",
+            "genotype": "RrYYWWSs",
+            "numeric": "1 - 2 - 0 - 1",
+            "binary": "01 - 11 - 00 - 01",
+            "r": "01",
+            "y": "11",
+            "w": "00",
+            "s": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "73",
+            "genotype": "RrYYWWSS",
+            "numeric": "1 - 2 - 0 - 2",
+            "binary": "01 - 11 - 00 - 11",
+            "r": "01",
+            "y": "11",
+            "w": "00",
+            "s": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "74",
+            "genotype": "RrYYWwss",
+            "numeric": "1 - 2 - 1 - 0",
+            "binary": "01 - 11 - 01 - 00",
+            "r": "01",
+            "y": "11",
+            "w": "01",
+            "s": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "75",
+            "genotype": "RrYYWwSs",
+            "numeric": "1 - 2 - 1 - 1",
+            "binary": "01 - 11 - 01 - 01",
+            "r": "01",
+            "y": "11",
+            "w": "01",
+            "s": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "77",
+            "genotype": "RrYYWwSS",
+            "numeric": "1 - 2 - 1 - 2",
+            "binary": "01 - 11 - 01 - 11",
+            "r": "01",
+            "y": "11",
+            "w": "01",
+            "s": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "7c",
+            "genotype": "RrYYwwss",
+            "numeric": "1 - 2 - 2 - 0",
+            "binary": "01 - 11 - 11 - 00",
+            "r": "01",
+            "y": "11",
+            "w": "11",
+            "s": "00",
+            "color": "Red"
+        },
+        {
+            "hex": "7d",
+            "genotype": "RrYYwwSs",
+            "numeric": "1 - 2 - 2 - 1",
+            "binary": "01 - 11 - 11 - 01",
+            "r": "01",
+            "y": "11",
+            "w": "11",
+            "s": "01",
+            "color": "Pink"
+        },
+        {
+            "hex": "7f",
+            "genotype": "RrYYwwSS",
+            "numeric": "1 - 2 - 2 - 2",
+            "binary": "01 - 11 - 11 - 11",
+            "r": "01",
+            "y": "11",
+            "w": "11",
+            "s": "11",
+            "color": "White"
+        },
+        {
+            "hex": "c0",
+            "genotype": "RRyyWWss",
+            "numeric": "2 - 0 - 0 - 0",
+            "binary": "11 - 00 - 00 - 00",
+            "r": "11",
+            "y": "00",
+            "w": "00",
+            "s": "00",
+            "color": "Black"
+        },
+        {
+            "hex": "c1",
+            "genotype": "RRyyWWSs",
+            "numeric": "2 - 0 - 0 - 1",
+            "binary": "11 - 00 - 00 - 01",
+            "r": "11",
+            "y": "00",
+            "w": "00",
+            "s": "01",
+            "color": "Red (seed)"
+        },
+        {
+            "hex": "c3",
+            "genotype": "RRyyWWSS",
+            "numeric": "2 - 0 - 0 - 2",
+            "binary": "11 - 00 - 00 - 11",
+            "r": "11",
+            "y": "00",
+            "w": "00",
+            "s": "11",
+            "color": "Pink"
+        },
+        {
+            "hex": "c4",
+            "genotype": "RRyyWwss",
+            "numeric": "2 - 0 - 1 - 0",
+            "binary": "11 - 00 - 01 - 00",
+            "r": "11",
+            "y": "00",
+            "w": "01",
+            "s": "00",
+            "color": "Black"
+        },
+        {
+            "hex": "c5",
+            "genotype": "RRyyWwSs",
+            "numeric": "2 - 0 - 1 - 1",
+            "binary": "11 - 00 - 01 - 01",
+            "r": "11",
+            "y": "00",
+            "w": "01",
+            "s": "01",
+            "color": "Red"
+        },
+        {
+            "hex": "c7",
+            "genotype": "RRyyWwSS",
+            "numeric": "2 - 0 - 1 - 2",
+            "binary": "11 - 00 - 01 - 11",
+            "r": "11",
+            "y": "00",
+            "w": "01",
+            "s": "11",
+            "color": "Pink"
+        },
+        {
+            "hex": "cc",
+            "genotype": "RRyywwss",
+            "numeric": "2 - 0 - 2 - 0",
+            "binary": "11 - 00 - 11 - 00",
+            "r": "11",
+            "y": "00",
+            "w": "11",
+            "s": "00",
+            "color": "Black"
+        },
+        {
+            "hex": "cd",
+            "genotype": "RRyywwSs",
+            "numeric": "2 - 0 - 2 - 1",
+            "binary": "11 - 00 - 11 - 01",
+            "r": "11",
+            "y": "00",
+            "w": "11",
+            "s": "01",
+            "color": "Red"
+        },
+        {
+            "hex": "cf",
+            "genotype": "RRyywwSS",
+            "numeric": "2 - 0 - 2 - 2",
+            "binary": "11 - 00 - 11 - 11",
+            "r": "11",
+            "y": "00",
+            "w": "11",
+            "s": "11",
+            "color": "Pink"
+        },
+        {
+            "hex": "d0",
+            "genotype": "RRYyWWss",
+            "numeric": "2 - 1 - 0 - 0",
+            "binary": "11 - 01 - 00 - 00",
+            "r": "11",
+            "y": "01",
+            "w": "00",
+            "s": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "d1",
+            "genotype": "RRYyWWSs",
+            "numeric": "2 - 1 - 0 - 1",
+            "binary": "11 - 01 - 00 - 01",
+            "r": "11",
+            "y": "01",
+            "w": "00",
+            "s": "01",
+            "color": "Orange"
+        },
+        {
+            "hex": "d3",
+            "genotype": "RRYyWWSS",
+            "numeric": "2 - 1 - 0 - 2",
+            "binary": "11 - 01 - 00 - 11",
+            "r": "11",
+            "y": "01",
+            "w": "00",
+            "s": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "d4",
+            "genotype": "RRYyWwss",
+            "numeric": "2 - 1 - 1 - 0",
+            "binary": "11 - 01 - 01 - 00",
+            "r": "11",
+            "y": "01",
+            "w": "01",
+            "s": "00",
+            "color": "Red"
+        },
+        {
+            "hex": "d5",
+            "genotype": "RRYyWwSs",
+            "numeric": "2 - 1 - 1 - 1",
+            "binary": "11 - 01 - 01 - 01",
+            "r": "11",
+            "y": "01",
+            "w": "01",
+            "s": "01",
+            "color": "Red"
+        },
+        {
+            "hex": "d7",
+            "genotype": "RRYyWwSS",
+            "numeric": "2 - 1 - 1 - 2",
+            "binary": "11 - 01 - 01 - 11",
+            "r": "11",
+            "y": "01",
+            "w": "01",
+            "s": "11",
+            "color": "White"
+        },
+        {
+            "hex": "dc",
+            "genotype": "RRYywwss",
+            "numeric": "2 - 1 - 2 - 0",
+            "binary": "11 - 01 - 11 - 00",
+            "r": "11",
+            "y": "01",
+            "w": "11",
+            "s": "00",
+            "color": "Black"
+        },
+        {
+            "hex": "dd",
+            "genotype": "RRYywwSs",
+            "numeric": "2 - 1 - 2 - 1",
+            "binary": "11 - 01 - 11 - 01",
+            "r": "11",
+            "y": "01",
+            "w": "11",
+            "s": "01",
+            "color": "Red"
+        },
+        {
+            "hex": "df",
+            "genotype": "RRYywwSS",
+            "numeric": "2 - 1 - 2 - 2",
+            "binary": "11 - 01 - 11 - 11",
+            "r": "11",
+            "y": "01",
+            "w": "11",
+            "s": "11",
+            "color": "Purple"
+        },
+        {
+            "hex": "f0",
+            "genotype": "RRYYWWss",
+            "numeric": "2 - 2 - 0 - 0",
+            "binary": "11 - 11 - 00 - 00",
+            "r": "11",
+            "y": "11",
+            "w": "00",
+            "s": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "f1",
+            "genotype": "RRYYWWSs",
+            "numeric": "2 - 2 - 0 - 1",
+            "binary": "11 - 11 - 00 - 01",
+            "r": "11",
+            "y": "11",
+            "w": "00",
+            "s": "01",
+            "color": "Orange"
+        },
+        {
+            "hex": "f3",
+            "genotype": "RRYYWWSS",
+            "numeric": "2 - 2 - 0 - 2",
+            "binary": "11 - 11 - 00 - 11",
+            "r": "11",
+            "y": "11",
+            "w": "00",
+            "s": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "f4",
+            "genotype": "RRYYWwss",
+            "numeric": "2 - 2 - 1 - 0",
+            "binary": "11 - 11 - 01 - 00",
+            "r": "11",
+            "y": "11",
+            "w": "01",
+            "s": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "f5",
+            "genotype": "RRYYWwSs",
+            "numeric": "2 - 2 - 1 - 1",
+            "binary": "11 - 11 - 01 - 01",
+            "r": "11",
+            "y": "11",
+            "w": "01",
+            "s": "01",
+            "color": "Orange"
+        },
+        {
+            "hex": "f7",
+            "genotype": "RRYYWwSS",
+            "numeric": "2 - 2 - 1 - 2",
+            "binary": "11 - 11 - 01 - 11",
+            "r": "11",
+            "y": "11",
+            "w": "01",
+            "s": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "fc",
+            "genotype": "RRYYwwss",
+            "numeric": "2 - 2 - 2 - 0",
+            "binary": "11 - 11 - 11 - 00",
+            "r": "11",
+            "y": "11",
+            "w": "11",
+            "s": "00",
+            "color": "Blue"
+        },
+        {
+            "hex": "fd",
+            "genotype": "RRYYwwSs",
+            "numeric": "2 - 2 - 2 - 1",
+            "binary": "11 - 11 - 11 - 01",
+            "r": "11",
+            "y": "11",
+            "w": "11",
+            "s": "01",
+            "color": "Red"
+        },
+        {
+            "hex": "ff",
+            "genotype": "RRYYwwSS",
+            "numeric": "2 - 2 - 2 - 2",
+            "binary": "11 - 11 - 11 - 11",
+            "r": "11",
+            "y": "11",
+            "w": "11",
+            "s": "11",
+            "color": "White"
+        }
+    ],
+    "Cosmos": [
+        {
+            "hex": "00",
+            "genotype": "rryyss",
+            "numeric": "0 - 0 - 0",
+            "binary": "00 - 00 - 00",
+            "r": "00",
+            "y": "00",
+            "s": "00",
+            "color": "White"
+        },
+        {
+            "hex": "01",
+            "genotype": "rryySs",
+            "numeric": "0 - 0 - 1",
+            "binary": "00 - 00 - 01",
+            "r": "00",
+            "y": "00",
+            "s": "01",
+            "color": "White (seed)"
+        },
+        {
+            "hex": "03",
+            "genotype": "rryySS",
+            "numeric": "0 - 0 - 2",
+            "binary": "00 - 00 - 11",
+            "r": "00",
+            "y": "00",
+            "s": "11",
+            "color": "White"
+        },
+        {
+            "hex": "04",
+            "genotype": "rrYyss",
+            "numeric": "0 - 1 - 0",
+            "binary": "00 - 01 - 00",
+            "r": "00",
+            "y": "01",
+            "s": "00",
+            "color": "Yellow"
+        },
+        {
+            "hex": "05",
+            "genotype": "rrYySs",
+            "numeric": "0 - 1 - 1",
+            "binary": "00 - 01 - 01",
+            "r": "00",
+            "y": "01",
+            "s": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "07",
+            "genotype": "rrYySS",
+            "numeric": "0 - 1 - 2",
+            "binary": "00 - 01 - 11",
+            "r": "00",
+            "y": "01",
+            "s": "11",
+            "color": "White"
+        },
+        {
+            "hex": "0c",
+            "genotype": "rrYYss",
+            "numeric": "0 - 2 - 0",
+            "binary": "00 - 11 - 00",
+            "r": "00",
+            "y": "11",
+            "s": "00",
+            "color": "Yellow"
+        },
+        {
+            "hex": "0d",
+            "genotype": "rrYYSs",
+            "numeric": "0 - 2 - 1",
+            "binary": "00 - 11 - 01",
+            "r": "00",
+            "y": "11",
+            "s": "01",
+            "color": "Yellow (seed)"
+        },
+        {
+            "hex": "0f",
+            "genotype": "rrYYSS",
+            "numeric": "0 - 2 - 2",
+            "binary": "00 - 11 - 11",
+            "r": "00",
+            "y": "11",
+            "s": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "10",
+            "genotype": "Rryyss",
+            "numeric": "1 - 0 - 0",
+            "binary": "01 - 00 - 00",
+            "r": "01",
+            "y": "00",
+            "s": "00",
+            "color": "Pink"
+        },
+        {
+            "hex": "11",
+            "genotype": "RryySs",
+            "numeric": "1 - 0 - 1",
+            "binary": "01 - 00 - 01",
+            "r": "01",
+            "y": "00",
+            "s": "01",
+            "color": "Pink"
+        },
+        {
+            "hex": "13",
+            "genotype": "RryySS",
+            "numeric": "1 - 0 - 2",
+            "binary": "01 - 00 - 11",
+            "r": "01",
+            "y": "00",
+            "s": "11",
+            "color": "Pink"
+        },
+        {
+            "hex": "14",
+            "genotype": "RrYyss",
+            "numeric": "1 - 1 - 0",
+            "binary": "01 - 01 - 00",
+            "r": "01",
+            "y": "01",
+            "s": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "15",
+            "genotype": "RrYySs",
+            "numeric": "1 - 1 - 1",
+            "binary": "01 - 01 - 01",
+            "r": "01",
+            "y": "01",
+            "s": "01",
+            "color": "Orange"
+        },
+        {
+            "hex": "17",
+            "genotype": "RrYySS",
+            "numeric": "1 - 1 - 2",
+            "binary": "01 - 01 - 11",
+            "r": "01",
+            "y": "01",
+            "s": "11",
+            "color": "Pink"
+        },
+        {
+            "hex": "1c",
+            "genotype": "RrYYss",
+            "numeric": "1 - 2 - 0",
+            "binary": "01 - 11 - 00",
+            "r": "01",
+            "y": "11",
+            "s": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "1d",
+            "genotype": "RrYYSs",
+            "numeric": "1 - 2 - 1",
+            "binary": "01 - 11 - 01",
+            "r": "01",
+            "y": "11",
+            "s": "01",
+            "color": "Orange"
+        },
+        {
+            "hex": "1f",
+            "genotype": "RrYYSS",
+            "numeric": "1 - 2 - 2",
+            "binary": "01 - 11 - 11",
+            "r": "01",
+            "y": "11",
+            "s": "11",
+            "color": "Orange"
+        },
+        {
+            "hex": "30",
+            "genotype": "RRyyss",
+            "numeric": "2 - 0 - 0",
+            "binary": "11 - 00 - 00",
+            "r": "11",
+            "y": "00",
+            "s": "00",
+            "color": "Red (seed)"
+        },
+        {
+            "hex": "31",
+            "genotype": "RRyySs",
+            "numeric": "2 - 0 - 1",
+            "binary": "11 - 00 - 01",
+            "r": "11",
+            "y": "00",
+            "s": "01",
+            "color": "Red"
+        },
+        {
+            "hex": "33",
+            "genotype": "RRyySS",
+            "numeric": "2 - 0 - 2",
+            "binary": "11 - 00 - 11",
+            "r": "11",
+            "y": "00",
+            "s": "11",
+            "color": "Red"
+        },
+        {
+            "hex": "34",
+            "genotype": "RRYyss",
+            "numeric": "2 - 1 - 0",
+            "binary": "11 - 01 - 00",
+            "r": "11",
+            "y": "01",
+            "s": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "35",
+            "genotype": "RRYySs",
+            "numeric": "2 - 1 - 1",
+            "binary": "11 - 01 - 01",
+            "r": "11",
+            "y": "01",
+            "s": "01",
+            "color": "Orange"
+        },
+        {
+            "hex": "37",
+            "genotype": "RRYySS",
+            "numeric": "2 - 1 - 2",
+            "binary": "11 - 01 - 11",
+            "r": "11",
+            "y": "01",
+            "s": "11",
+            "color": "Red"
+        },
+        {
+            "hex": "3c",
+            "genotype": "RRYYss",
+            "numeric": "2 - 2 - 0",
+            "binary": "11 - 11 - 00",
+            "r": "11",
+            "y": "11",
+            "s": "00",
+            "color": "Black"
+        },
+        {
+            "hex": "3d",
+            "genotype": "RRYYSs",
+            "numeric": "2 - 2 - 1",
+            "binary": "11 - 11 - 01",
+            "r": "11",
+            "y": "11",
+            "s": "01",
+            "color": "Black"
+        },
+        {
+            "hex": "3f",
+            "genotype": "RRYYSS",
+            "numeric": "2 - 2 - 2",
+            "binary": "11 - 11 - 11",
+            "r": "11",
+            "y": "11",
+            "s": "11",
+            "color": "Red"
+        }
+    ],
+    "Lilies": [
+        {
+            "hex": "00",
+            "genotype": "rryyss",
+            "numeric": "0 - 0 - 0",
+            "binary": "00 - 00 - 00",
+            "r": "00",
+            "y": "00",
+            "s": "00",
+            "color": "White"
+        },
+        {
+            "hex": "01",
+            "genotype": "rryySs",
+            "numeric": "0 - 0 - 1",
+            "binary": "00 - 00 - 01",
+            "r": "00",
+            "y": "00",
+            "s": "01",
+            "color": "White"
+        },
+        {
+            "hex": "03",
+            "genotype": "rryySS",
+            "numeric": "0 - 0 - 2",
+            "binary": "00 - 00 - 11",
+            "r": "00",
+            "y": "00",
+            "s": "11",
+            "color": "White (seed)"
+        },
+        {
+            "hex": "04",
+            "genotype": "rrYyss",
+            "numeric": "0 - 1 - 0",
+            "binary": "00 - 01 - 00",
+            "r": "00",
+            "y": "01",
+            "s": "00",
+            "color": "Yellow"
+        },
+        {
+            "hex": "05",
+            "genotype": "rrYySs",
+            "numeric": "0 - 1 - 1",
+            "binary": "00 - 01 - 01",
+            "r": "00",
+            "y": "01",
+            "s": "01",
+            "color": "White"
+        },
+        {
+            "hex": "07",
+            "genotype": "rrYySS",
+            "numeric": "0 - 1 - 2",
+            "binary": "00 - 01 - 11",
+            "r": "00",
+            "y": "01",
+            "s": "11",
+            "color": "White"
+        },
+        {
+            "hex": "0c",
+            "genotype": "rrYYss",
+            "numeric": "0 - 2 - 0",
+            "binary": "00 - 11 - 00",
+            "r": "00",
+            "y": "11",
+            "s": "00",
+            "color": "Yellow (seed)"
+        },
+        {
+            "hex": "0d",
+            "genotype": "rrYYSs",
+            "numeric": "0 - 2 - 1",
+            "binary": "00 - 11 - 01",
+            "r": "00",
+            "y": "11",
+            "s": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "0f",
+            "genotype": "rrYYSS",
+            "numeric": "0 - 2 - 2",
+            "binary": "00 - 11 - 11",
+            "r": "00",
+            "y": "11",
+            "s": "11",
+            "color": "White"
+        },
+        {
+            "hex": "10",
+            "genotype": "Rryyss",
+            "numeric": "1 - 0 - 0",
+            "binary": "01 - 00 - 00",
+            "r": "01",
+            "y": "00",
+            "s": "00",
+            "color": "Red"
+        },
+        {
+            "hex": "11",
+            "genotype": "RryySs",
+            "numeric": "1 - 0 - 1",
+            "binary": "01 - 00 - 01",
+            "r": "01",
+            "y": "00",
+            "s": "01",
+            "color": "Pink"
+        },
+        {
+            "hex": "13",
+            "genotype": "RryySS",
+            "numeric": "1 - 0 - 2",
+            "binary": "01 - 00 - 11",
+            "r": "01",
+            "y": "00",
+            "s": "11",
+            "color": "White"
+        },
+        {
+            "hex": "14",
+            "genotype": "RrYyss",
+            "numeric": "1 - 1 - 0",
+            "binary": "01 - 01 - 00",
+            "r": "01",
+            "y": "01",
+            "s": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "15",
+            "genotype": "RrYySs",
+            "numeric": "1 - 1 - 1",
+            "binary": "01 - 01 - 01",
+            "r": "01",
+            "y": "01",
+            "s": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "17",
+            "genotype": "RrYySS",
+            "numeric": "1 - 1 - 2",
+            "binary": "01 - 01 - 11",
+            "r": "01",
+            "y": "01",
+            "s": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "1c",
+            "genotype": "RrYYss",
+            "numeric": "1 - 2 - 0",
+            "binary": "01 - 11 - 00",
+            "r": "01",
+            "y": "11",
+            "s": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "1d",
+            "genotype": "RrYYSs",
+            "numeric": "1 - 2 - 1",
+            "binary": "01 - 11 - 01",
+            "r": "01",
+            "y": "11",
+            "s": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "1f",
+            "genotype": "RrYYSS",
+            "numeric": "1 - 2 - 2",
+            "binary": "01 - 11 - 11",
+            "r": "01",
+            "y": "11",
+            "s": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "30",
+            "genotype": "RRyyss",
+            "numeric": "2 - 0 - 0",
+            "binary": "11 - 00 - 00",
+            "r": "11",
+            "y": "00",
+            "s": "00",
+            "color": "Black"
+        },
+        {
+            "hex": "31",
+            "genotype": "RRyySs",
+            "numeric": "2 - 0 - 1",
+            "binary": "11 - 00 - 01",
+            "r": "11",
+            "y": "00",
+            "s": "01",
+            "color": "Red (seed)"
+        },
+        {
+            "hex": "33",
+            "genotype": "RRyySS",
+            "numeric": "2 - 0 - 2",
+            "binary": "11 - 00 - 11",
+            "r": "11",
+            "y": "00",
+            "s": "11",
+            "color": "Pink"
+        },
+        {
+            "hex": "34",
+            "genotype": "RRYyss",
+            "numeric": "2 - 1 - 0",
+            "binary": "11 - 01 - 00",
+            "r": "11",
+            "y": "01",
+            "s": "00",
+            "color": "Black"
+        },
+        {
+            "hex": "35",
+            "genotype": "RRYySs",
+            "numeric": "2 - 1 - 1",
+            "binary": "11 - 01 - 01",
+            "r": "11",
+            "y": "01",
+            "s": "01",
+            "color": "Red"
+        },
+        {
+            "hex": "37",
+            "genotype": "RRYySS",
+            "numeric": "2 - 1 - 2",
+            "binary": "11 - 01 - 11",
+            "r": "11",
+            "y": "01",
+            "s": "11",
+            "color": "Pink"
+        },
+        {
+            "hex": "3c",
+            "genotype": "RRYYss",
+            "numeric": "2 - 2 - 0",
+            "binary": "11 - 11 - 00",
+            "r": "11",
+            "y": "11",
+            "s": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "3d",
+            "genotype": "RRYYSs",
+            "numeric": "2 - 2 - 1",
+            "binary": "11 - 11 - 01",
+            "r": "11",
+            "y": "11",
+            "s": "01",
+            "color": "Orange"
+        },
+        {
+            "hex": "3f",
+            "genotype": "RRYYSS",
+            "numeric": "2 - 2 - 2",
+            "binary": "11 - 11 - 11",
+            "r": "11",
+            "y": "11",
+            "s": "11",
+            "color": "White"
+        }
+    ],
+    "Pansies": [
+        {
+            "hex": "00",
+            "genotype": "rryyWW",
+            "numeric": "0 - 0 - 0",
+            "binary": "00 - 00 - 00",
+            "r": "00",
+            "y": "00",
+            "w": "00",
+            "color": "White"
+        },
+        {
+            "hex": "01",
+            "genotype": "rryyWw",
+            "numeric": "0 - 0 - 1",
+            "binary": "00 - 00 - 01",
+            "r": "00",
+            "y": "00",
+            "w": "01",
+            "color": "White (seed)"
+        },
+        {
+            "hex": "03",
+            "genotype": "rryyww",
+            "numeric": "0 - 0 - 2",
+            "binary": "00 - 00 - 11",
+            "r": "00",
+            "y": "00",
+            "w": "11",
+            "color": "Blue"
+        },
+        {
+            "hex": "04",
+            "genotype": "rrYyWW",
+            "numeric": "0 - 1 - 0",
+            "binary": "00 - 01 - 00",
+            "r": "00",
+            "y": "01",
+            "w": "00",
+            "color": "Yellow"
+        },
+        {
+            "hex": "05",
+            "genotype": "rrYyWw",
+            "numeric": "0 - 1 - 1",
+            "binary": "00 - 01 - 01",
+            "r": "00",
+            "y": "01",
+            "w": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "07",
+            "genotype": "rrYyww",
+            "numeric": "0 - 1 - 2",
+            "binary": "00 - 01 - 11",
+            "r": "00",
+            "y": "01",
+            "w": "11",
+            "color": "Blue"
+        },
+        {
+            "hex": "0c",
+            "genotype": "rrYYWW",
+            "numeric": "0 - 2 - 0",
+            "binary": "00 - 11 - 00",
+            "r": "00",
+            "y": "11",
+            "w": "00",
+            "color": "Yellow (seed)"
+        },
+        {
+            "hex": "0d",
+            "genotype": "rrYYWw",
+            "numeric": "0 - 2 - 1",
+            "binary": "00 - 11 - 01",
+            "r": "00",
+            "y": "11",
+            "w": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "0f",
+            "genotype": "rrYYww",
+            "numeric": "0 - 2 - 2",
+            "binary": "00 - 11 - 11",
+            "r": "00",
+            "y": "11",
+            "w": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "10",
+            "genotype": "RryyWW",
+            "numeric": "1 - 0 - 0",
+            "binary": "01 - 00 - 00",
+            "r": "01",
+            "y": "00",
+            "w": "00",
+            "color": "Red"
+        },
+        {
+            "hex": "11",
+            "genotype": "RryyWw",
+            "numeric": "1 - 0 - 1",
+            "binary": "01 - 00 - 01",
+            "r": "01",
+            "y": "00",
+            "w": "01",
+            "color": "Red"
+        },
+        {
+            "hex": "13",
+            "genotype": "Rryyww",
+            "numeric": "1 - 0 - 2",
+            "binary": "01 - 00 - 11",
+            "r": "01",
+            "y": "00",
+            "w": "11",
+            "color": "Blue"
+        },
+        {
+            "hex": "14",
+            "genotype": "RrYyWW",
+            "numeric": "1 - 1 - 0",
+            "binary": "01 - 01 - 00",
+            "r": "01",
+            "y": "01",
+            "w": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "15",
+            "genotype": "RrYyWw",
+            "numeric": "1 - 1 - 1",
+            "binary": "01 - 01 - 01",
+            "r": "01",
+            "y": "01",
+            "w": "01",
+            "color": "Orange"
+        },
+        {
+            "hex": "17",
+            "genotype": "RrYyww",
+            "numeric": "1 - 1 - 2",
+            "binary": "01 - 01 - 11",
+            "r": "01",
+            "y": "01",
+            "w": "11",
+            "color": "Orange"
+        },
+        {
+            "hex": "1c",
+            "genotype": "RrYYWW",
+            "numeric": "1 - 2 - 0",
+            "binary": "01 - 11 - 00",
+            "r": "01",
+            "y": "11",
+            "w": "00",
+            "color": "Yellow"
+        },
+        {
+            "hex": "1d",
+            "genotype": "RrYYWw",
+            "numeric": "1 - 2 - 1",
+            "binary": "01 - 11 - 01",
+            "r": "01",
+            "y": "11",
+            "w": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "1f",
+            "genotype": "RrYYww",
+            "numeric": "1 - 2 - 2",
+            "binary": "01 - 11 - 11",
+            "r": "01",
+            "y": "11",
+            "w": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "30",
+            "genotype": "RRyyWW",
+            "numeric": "2 - 0 - 0",
+            "binary": "11 - 00 - 00",
+            "r": "11",
+            "y": "00",
+            "w": "00",
+            "color": "Red (seed)"
+        },
+        {
+            "hex": "31",
+            "genotype": "RRyyWw",
+            "numeric": "2 - 0 - 1",
+            "binary": "11 - 00 - 01",
+            "r": "11",
+            "y": "00",
+            "w": "01",
+            "color": "Red"
+        },
+        {
+            "hex": "33",
+            "genotype": "RRyyww",
+            "numeric": "2 - 0 - 2",
+            "binary": "11 - 00 - 11",
+            "r": "11",
+            "y": "00",
+            "w": "11",
+            "color": "Purple"
+        },
+        {
+            "hex": "34",
+            "genotype": "RRYyWW",
+            "numeric": "2 - 1 - 0",
+            "binary": "11 - 01 - 00",
+            "r": "11",
+            "y": "01",
+            "w": "00",
+            "color": "Red"
+        },
+        {
+            "hex": "35",
+            "genotype": "RRYyWw",
+            "numeric": "2 - 1 - 1",
+            "binary": "11 - 01 - 01",
+            "r": "11",
+            "y": "01",
+            "w": "01",
+            "color": "Red"
+        },
+        {
+            "hex": "37",
+            "genotype": "RRYyww",
+            "numeric": "2 - 1 - 2",
+            "binary": "11 - 01 - 11",
+            "r": "11",
+            "y": "01",
+            "w": "11",
+            "color": "Purple"
+        },
+        {
+            "hex": "3c",
+            "genotype": "RRYYWW",
+            "numeric": "2 - 2 - 0",
+            "binary": "11 - 11 - 00",
+            "r": "11",
+            "y": "11",
+            "w": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "3d",
+            "genotype": "RRYYWw",
+            "numeric": "2 - 2 - 1",
+            "binary": "11 - 11 - 01",
+            "r": "11",
+            "y": "11",
+            "w": "01",
+            "color": "Orange"
+        },
+        {
+            "hex": "3f",
+            "genotype": "RRYYww",
+            "numeric": "2 - 2 - 2",
+            "binary": "11 - 11 - 11",
+            "r": "11",
+            "y": "11",
+            "w": "11",
+            "color": "Purple"
+        }
+    ],
+    "Hyacinths": [
+        {
+            "hex": "00",
+            "genotype": "rryyWW",
+            "numeric": "0 - 0 - 0",
+            "binary": "00 - 00 - 00",
+            "r": "00",
+            "y": "00",
+            "w": "00",
+            "color": "White"
+        },
+        {
+            "hex": "01",
+            "genotype": "rryyWw",
+            "numeric": "0 - 0 - 1",
+            "binary": "00 - 00 - 01",
+            "r": "00",
+            "y": "00",
+            "w": "01",
+            "color": "White (seed)"
+        },
+        {
+            "hex": "03",
+            "genotype": "rryyww",
+            "numeric": "0 - 0 - 2",
+            "binary": "00 - 00 - 11",
+            "r": "00",
+            "y": "00",
+            "w": "11",
+            "color": "Blue"
+        },
+        {
+            "hex": "04",
+            "genotype": "rrYyWW",
+            "numeric": "0 - 1 - 0",
+            "binary": "00 - 01 - 00",
+            "r": "00",
+            "y": "01",
+            "w": "00",
+            "color": "Yellow"
+        },
+        {
+            "hex": "05",
+            "genotype": "rrYyWw",
+            "numeric": "0 - 1 - 1",
+            "binary": "00 - 01 - 01",
+            "r": "00",
+            "y": "01",
+            "w": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "07",
+            "genotype": "rrYyww",
+            "numeric": "0 - 1 - 2",
+            "binary": "00 - 01 - 11",
+            "r": "00",
+            "y": "01",
+            "w": "11",
+            "color": "White"
+        },
+        {
+            "hex": "0c",
+            "genotype": "rrYYWW",
+            "numeric": "0 - 2 - 0",
+            "binary": "00 - 11 - 00",
+            "r": "00",
+            "y": "11",
+            "w": "00",
+            "color": "Yellow (seed)"
+        },
+        {
+            "hex": "0d",
+            "genotype": "rrYYWw",
+            "numeric": "0 - 2 - 1",
+            "binary": "00 - 11 - 01",
+            "r": "00",
+            "y": "11",
+            "w": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "0f",
+            "genotype": "rrYYww",
+            "numeric": "0 - 2 - 2",
+            "binary": "00 - 11 - 11",
+            "r": "00",
+            "y": "11",
+            "w": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "10",
+            "genotype": "RryyWW",
+            "numeric": "1 - 0 - 0",
+            "binary": "01 - 00 - 00",
+            "r": "01",
+            "y": "00",
+            "w": "00",
+            "color": "Red"
+        },
+        {
+            "hex": "11",
+            "genotype": "RryyWw",
+            "numeric": "1 - 0 - 1",
+            "binary": "01 - 00 - 01",
+            "r": "01",
+            "y": "00",
+            "w": "01",
+            "color": "Pink"
+        },
+        {
+            "hex": "13",
+            "genotype": "Rryyww",
+            "numeric": "1 - 0 - 2",
+            "binary": "01 - 00 - 11",
+            "r": "01",
+            "y": "00",
+            "w": "11",
+            "color": "White"
+        },
+        {
+            "hex": "14",
+            "genotype": "RrYyWW",
+            "numeric": "1 - 1 - 0",
+            "binary": "01 - 01 - 00",
+            "r": "01",
+            "y": "01",
+            "w": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "15",
+            "genotype": "RrYyWw",
+            "numeric": "1 - 1 - 1",
+            "binary": "01 - 01 - 01",
+            "r": "01",
+            "y": "01",
+            "w": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "17",
+            "genotype": "RrYyww",
+            "numeric": "1 - 1 - 2",
+            "binary": "01 - 01 - 11",
+            "r": "01",
+            "y": "01",
+            "w": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "1c",
+            "genotype": "RrYYWW",
+            "numeric": "1 - 2 - 0",
+            "binary": "01 - 11 - 00",
+            "r": "01",
+            "y": "11",
+            "w": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "1d",
+            "genotype": "RrYYWw",
+            "numeric": "1 - 2 - 1",
+            "binary": "01 - 11 - 01",
+            "r": "01",
+            "y": "11",
+            "w": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "1f",
+            "genotype": "RrYYww",
+            "numeric": "1 - 2 - 2",
+            "binary": "01 - 11 - 11",
+            "r": "01",
+            "y": "11",
+            "w": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "30",
+            "genotype": "RRyyWW",
+            "numeric": "2 - 0 - 0",
+            "binary": "11 - 00 - 00",
+            "r": "11",
+            "y": "00",
+            "w": "00",
+            "color": "Red"
+        },
+        {
+            "hex": "31",
+            "genotype": "RRyyWw",
+            "numeric": "2 - 0 - 1",
+            "binary": "11 - 00 - 01",
+            "r": "11",
+            "y": "00",
+            "w": "01",
+            "color": "Red (seed)"
+        },
+        {
+            "hex": "33",
+            "genotype": "RRyyww",
+            "numeric": "2 - 0 - 2",
+            "binary": "11 - 00 - 11",
+            "r": "11",
+            "y": "00",
+            "w": "11",
+            "color": "Red"
+        },
+        {
+            "hex": "34",
+            "genotype": "RRYyWW",
+            "numeric": "2 - 1 - 0",
+            "binary": "11 - 01 - 00",
+            "r": "11",
+            "y": "01",
+            "w": "00",
+            "color": "Blue"
+        },
+        {
+            "hex": "35",
+            "genotype": "RRYyWw",
+            "numeric": "2 - 1 - 1",
+            "binary": "11 - 01 - 01",
+            "r": "11",
+            "y": "01",
+            "w": "01",
+            "color": "Red"
+        },
+        {
+            "hex": "37",
+            "genotype": "RRYyww",
+            "numeric": "2 - 1 - 2",
+            "binary": "11 - 01 - 11",
+            "r": "11",
+            "y": "01",
+            "w": "11",
+            "color": "Red"
+        },
+        {
+            "hex": "3c",
+            "genotype": "RRYYWW",
+            "numeric": "2 - 2 - 0",
+            "binary": "11 - 11 - 00",
+            "r": "11",
+            "y": "11",
+            "w": "00",
+            "color": "Purple"
+        },
+        {
+            "hex": "3d",
+            "genotype": "RRYYWw",
+            "numeric": "2 - 2 - 1",
+            "binary": "11 - 11 - 01",
+            "r": "11",
+            "y": "11",
+            "w": "01",
+            "color": "Purple"
+        },
+        {
+            "hex": "3f",
+            "genotype": "RRYYww",
+            "numeric": "2 - 2 - 2",
+            "binary": "11 - 11 - 11",
+            "r": "11",
+            "y": "11",
+            "w": "11",
+            "color": "Purple"
+        }
+    ],
+    "Tulips": [
+        {
+            "hex": "00",
+            "genotype": "rryyss",
+            "numeric": "0 - 0 - 0",
+            "binary": "00 - 00 - 00",
+            "r": "00",
+            "y": "00",
+            "s": "00",
+            "color": "White"
+        },
+        {
+            "hex": "01",
+            "genotype": "rryySs",
+            "numeric": "0 - 0 - 1",
+            "binary": "00 - 00 - 01",
+            "r": "00",
+            "y": "00",
+            "s": "01",
+            "color": "White (seed)"
+        },
+        {
+            "hex": "03",
+            "genotype": "rryySS",
+            "numeric": "0 - 0 - 2",
+            "binary": "00 - 00 - 11",
+            "r": "00",
+            "y": "00",
+            "s": "11",
+            "color": "White"
+        },
+        {
+            "hex": "04",
+            "genotype": "rrYyss",
+            "numeric": "0 - 1 - 0",
+            "binary": "00 - 01 - 00",
+            "r": "00",
+            "y": "01",
+            "s": "00",
+            "color": "Yellow"
+        },
+        {
+            "hex": "05",
+            "genotype": "rrYySs",
+            "numeric": "0 - 1 - 1",
+            "binary": "00 - 01 - 01",
+            "r": "00",
+            "y": "01",
+            "s": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "07",
+            "genotype": "rrYySS",
+            "numeric": "0 - 1 - 2",
+            "binary": "00 - 01 - 11",
+            "r": "00",
+            "y": "01",
+            "s": "11",
+            "color": "White"
+        },
+        {
+            "hex": "0c",
+            "genotype": "rrYYss",
+            "numeric": "0 - 2 - 0",
+            "binary": "00 - 11 - 00",
+            "r": "00",
+            "y": "11",
+            "s": "00",
+            "color": "Yellow (seed)"
+        },
+        {
+            "hex": "0d",
+            "genotype": "rrYYSs",
+            "numeric": "0 - 2 - 1",
+            "binary": "00 - 11 - 01",
+            "r": "00",
+            "y": "11",
+            "s": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "0f",
+            "genotype": "rrYYSS",
+            "numeric": "0 - 2 - 2",
+            "binary": "00 - 11 - 11",
+            "r": "00",
+            "y": "11",
+            "s": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "10",
+            "genotype": "Rryyss",
+            "numeric": "1 - 0 - 0",
+            "binary": "01 - 00 - 00",
+            "r": "01",
+            "y": "00",
+            "s": "00",
+            "color": "Red"
+        },
+        {
+            "hex": "11",
+            "genotype": "RryySs",
+            "numeric": "1 - 0 - 1",
+            "binary": "01 - 00 - 01",
+            "r": "01",
+            "y": "00",
+            "s": "01",
+            "color": "Pink"
+        },
+        {
+            "hex": "13",
+            "genotype": "RryySS",
+            "numeric": "1 - 0 - 2",
+            "binary": "01 - 00 - 11",
+            "r": "01",
+            "y": "00",
+            "s": "11",
+            "color": "White"
+        },
+        {
+            "hex": "14",
+            "genotype": "RrYyss",
+            "numeric": "1 - 1 - 0",
+            "binary": "01 - 01 - 00",
+            "r": "01",
+            "y": "01",
+            "s": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "15",
+            "genotype": "RrYySs",
+            "numeric": "1 - 1 - 1",
+            "binary": "01 - 01 - 01",
+            "r": "01",
+            "y": "01",
+            "s": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "17",
+            "genotype": "RrYySS",
+            "numeric": "1 - 1 - 2",
+            "binary": "01 - 01 - 11",
+            "r": "01",
+            "y": "01",
+            "s": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "1c",
+            "genotype": "RrYYss",
+            "numeric": "1 - 2 - 0",
+            "binary": "01 - 11 - 00",
+            "r": "01",
+            "y": "11",
+            "s": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "1d",
+            "genotype": "RrYYSs",
+            "numeric": "1 - 2 - 1",
+            "binary": "01 - 11 - 01",
+            "r": "01",
+            "y": "11",
+            "s": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "1f",
+            "genotype": "RrYYSS",
+            "numeric": "1 - 2 - 2",
+            "binary": "01 - 11 - 11",
+            "r": "01",
+            "y": "11",
+            "s": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "30",
+            "genotype": "RRyyss",
+            "numeric": "2 - 0 - 0",
+            "binary": "11 - 00 - 00",
+            "r": "11",
+            "y": "00",
+            "s": "00",
+            "color": "Black"
+        },
+        {
+            "hex": "31",
+            "genotype": "RRyySs",
+            "numeric": "2 - 0 - 1",
+            "binary": "11 - 00 - 01",
+            "r": "11",
+            "y": "00",
+            "s": "01",
+            "color": "Red (seed)"
+        },
+        {
+            "hex": "33",
+            "genotype": "RRyySS",
+            "numeric": "2 - 0 - 2",
+            "binary": "11 - 00 - 11",
+            "r": "11",
+            "y": "00",
+            "s": "11",
+            "color": "Red"
+        },
+        {
+            "hex": "34",
+            "genotype": "RRYyss",
+            "numeric": "2 - 1 - 0",
+            "binary": "11 - 01 - 00",
+            "r": "11",
+            "y": "01",
+            "s": "00",
+            "color": "Black"
+        },
+        {
+            "hex": "35",
+            "genotype": "RRYySs",
+            "numeric": "2 - 1 - 1",
+            "binary": "11 - 01 - 01",
+            "r": "11",
+            "y": "01",
+            "s": "01",
+            "color": "Red"
+        },
+        {
+            "hex": "37",
+            "genotype": "RRYySS",
+            "numeric": "2 - 1 - 2",
+            "binary": "11 - 01 - 11",
+            "r": "11",
+            "y": "01",
+            "s": "11",
+            "color": "Red"
+        },
+        {
+            "hex": "3c",
+            "genotype": "RRYYss",
+            "numeric": "2 - 2 - 0",
+            "binary": "11 - 11 - 00",
+            "r": "11",
+            "y": "11",
+            "s": "00",
+            "color": "Purple"
+        },
+        {
+            "hex": "3d",
+            "genotype": "RRYYSs",
+            "numeric": "2 - 2 - 1",
+            "binary": "11 - 11 - 01",
+            "r": "11",
+            "y": "11",
+            "s": "01",
+            "color": "Purple"
+        },
+        {
+            "hex": "3f",
+            "genotype": "RRYYSS",
+            "numeric": "2 - 2 - 2",
+            "binary": "11 - 11 - 11",
+            "r": "11",
+            "y": "11",
+            "s": "11",
+            "color": "Purple"
+        }
+    ],
+    "Mums": [
+        {
+            "hex": "00",
+            "genotype": "rryyWW",
+            "numeric": "0 - 0 - 0",
+            "binary": "00 - 00 - 00",
+            "r": "00",
+            "y": "00",
+            "w": "00",
+            "color": "White"
+        },
+        {
+            "hex": "01",
+            "genotype": "rryyWw",
+            "numeric": "0 - 0 - 1",
+            "binary": "00 - 00 - 01",
+            "r": "00",
+            "y": "00",
+            "w": "01",
+            "color": "White (seed)"
+        },
+        {
+            "hex": "03",
+            "genotype": "rryyww",
+            "numeric": "0 - 0 - 2",
+            "binary": "00 - 00 - 11",
+            "r": "00",
+            "y": "00",
+            "w": "11",
+            "color": "Purple"
+        },
+        {
+            "hex": "04",
+            "genotype": "rrYyWW",
+            "numeric": "0 - 1 - 0",
+            "binary": "00 - 01 - 00",
+            "r": "00",
+            "y": "01",
+            "w": "00",
+            "color": "Yellow"
+        },
+        {
+            "hex": "05",
+            "genotype": "rrYyWw",
+            "numeric": "0 - 1 - 1",
+            "binary": "00 - 01 - 01",
+            "r": "00",
+            "y": "01",
+            "w": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "07",
+            "genotype": "rrYyww",
+            "numeric": "0 - 1 - 2",
+            "binary": "00 - 01 - 11",
+            "r": "00",
+            "y": "01",
+            "w": "11",
+            "color": "White"
+        },
+        {
+            "hex": "0c",
+            "genotype": "rrYYWW",
+            "numeric": "0 - 2 - 0",
+            "binary": "00 - 11 - 00",
+            "r": "00",
+            "y": "11",
+            "w": "00",
+            "color": "Yellow (seed)"
+        },
+        {
+            "hex": "0d",
+            "genotype": "rrYYWw",
+            "numeric": "0 - 2 - 1",
+            "binary": "00 - 11 - 01",
+            "r": "00",
+            "y": "11",
+            "w": "01",
+            "color": "Yellow"
+        },
+        {
+            "hex": "0f",
+            "genotype": "rrYYww",
+            "numeric": "0 - 2 - 2",
+            "binary": "00 - 11 - 11",
+            "r": "00",
+            "y": "11",
+            "w": "11",
+            "color": "Yellow"
+        },
+        {
+            "hex": "10",
+            "genotype": "RryyWW",
+            "numeric": "1 - 0 - 0",
+            "binary": "01 - 00 - 00",
+            "r": "01",
+            "y": "00",
+            "w": "00",
+            "color": "Pink"
+        },
+        {
+            "hex": "11",
+            "genotype": "RryyWw",
+            "numeric": "1 - 0 - 1",
+            "binary": "01 - 00 - 01",
+            "r": "01",
+            "y": "00",
+            "w": "01",
+            "color": "Pink"
+        },
+        {
+            "hex": "13",
+            "genotype": "Rryyww",
+            "numeric": "1 - 0 - 2",
+            "binary": "01 - 00 - 11",
+            "r": "01",
+            "y": "00",
+            "w": "11",
+            "color": "Pink"
+        },
+        {
+            "hex": "14",
+            "genotype": "RrYyWW",
+            "numeric": "1 - 1 - 0",
+            "binary": "01 - 01 - 00",
+            "r": "01",
+            "y": "01",
+            "w": "00",
+            "color": "Yellow"
+        },
+        {
+            "hex": "15",
+            "genotype": "RrYyWw",
+            "numeric": "1 - 1 - 1",
+            "binary": "01 - 01 - 01",
+            "r": "01",
+            "y": "01",
+            "w": "01",
+            "color": "Red"
+        },
+        {
+            "hex": "17",
+            "genotype": "RrYyww",
+            "numeric": "1 - 1 - 2",
+            "binary": "01 - 01 - 11",
+            "r": "01",
+            "y": "01",
+            "w": "11",
+            "color": "Pink"
+        },
+        {
+            "hex": "1c",
+            "genotype": "RrYYWW",
+            "numeric": "1 - 2 - 0",
+            "binary": "01 - 11 - 00",
+            "r": "01",
+            "y": "11",
+            "w": "00",
+            "color": "Purple"
+        },
+        {
+            "hex": "1d",
+            "genotype": "RrYYWw",
+            "numeric": "1 - 2 - 1",
+            "binary": "01 - 11 - 01",
+            "r": "01",
+            "y": "11",
+            "w": "01",
+            "color": "Purple"
+        },
+        {
+            "hex": "1f",
+            "genotype": "RrYYww",
+            "numeric": "1 - 2 - 2",
+            "binary": "01 - 11 - 11",
+            "r": "01",
+            "y": "11",
+            "w": "11",
+            "color": "Purple"
+        },
+        {
+            "hex": "30",
+            "genotype": "RRyyWW",
+            "numeric": "2 - 0 - 0",
+            "binary": "11 - 00 - 00",
+            "r": "11",
+            "y": "00",
+            "w": "00",
+            "color": "Red (seed)"
+        },
+        {
+            "hex": "31",
+            "genotype": "RRyyWw",
+            "numeric": "2 - 0 - 1",
+            "binary": "11 - 00 - 01",
+            "r": "11",
+            "y": "00",
+            "w": "01",
+            "color": "Red"
+        },
+        {
+            "hex": "33",
+            "genotype": "RRyyww",
+            "numeric": "2 - 0 - 2",
+            "binary": "11 - 00 - 11",
+            "r": "11",
+            "y": "00",
+            "w": "11",
+            "color": "Red"
+        },
+        {
+            "hex": "34",
+            "genotype": "RRYyWW",
+            "numeric": "2 - 1 - 0",
+            "binary": "11 - 01 - 00",
+            "r": "11",
+            "y": "01",
+            "w": "00",
+            "color": "Purple"
+        },
+        {
+            "hex": "35",
+            "genotype": "RRYyWw",
+            "numeric": "2 - 1 - 1",
+            "binary": "11 - 01 - 01",
+            "r": "11",
+            "y": "01",
+            "w": "01",
+            "color": "Purple"
+        },
+        {
+            "hex": "37",
+            "genotype": "RRYyww",
+            "numeric": "2 - 1 - 2",
+            "binary": "11 - 01 - 11",
+            "r": "11",
+            "y": "01",
+            "w": "11",
+            "color": "Red"
+        },
+        {
+            "hex": "3c",
+            "genotype": "RRYYWW",
+            "numeric": "2 - 2 - 0",
+            "binary": "11 - 11 - 00",
+            "r": "11",
+            "y": "11",
+            "w": "00",
+            "color": "Green"
+        },
+        {
+            "hex": "3d",
+            "genotype": "RRYYWw",
+            "numeric": "2 - 2 - 1",
+            "binary": "11 - 11 - 01",
+            "r": "11",
+            "y": "11",
+            "w": "01",
+            "color": "Green"
+        },
+        {
+            "hex": "3f",
+            "genotype": "RRYYww",
+            "numeric": "2 - 2 - 2",
+            "binary": "11 - 11 - 11",
+            "r": "11",
+            "y": "11",
+            "w": "11",
+            "color": "Red"
+        }
+    ],
+    "Windflowers": [
+        {
+            "hex": "00",
+            "genotype": "rrooWW",
+            "numeric": "0 - 0 - 0",
+            "binary": "00 - 00 - 00",
+            "r": "00",
+            "oy": "00",
+            "w": "00",
+            "color": "White"
+        },
+        {
+            "hex": "01",
+            "genotype": "rrooWw",
+            "numeric": "0 - 0 - 1",
+            "binary": "00 - 00 - 01",
+            "r": "00",
+            "oy": "00",
+            "w": "01",
+            "color": "White (seed)"
+        },
+        {
+            "hex": "03",
+            "genotype": "rrooww",
+            "numeric": "0 - 0 - 2",
+            "binary": "00 - 00 - 11",
+            "r": "00",
+            "oy": "00",
+            "w": "11",
+            "color": "Blue"
+        },
+        {
+            "hex": "04",
+            "genotype": "rrOoWW",
+            "numeric": "0 - 1 - 0",
+            "binary": "00 - 01 - 00",
+            "r": "00",
+            "oy": "01",
+            "w": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "05",
+            "genotype": "rrOoWw",
+            "numeric": "0 - 1 - 1",
+            "binary": "00 - 01 - 01",
+            "r": "00",
+            "oy": "01",
+            "w": "01",
+            "color": "Orange"
+        },
+        {
+            "hex": "07",
+            "genotype": "rrOoww",
+            "numeric": "0 - 1 - 2",
+            "binary": "00 - 01 - 11",
+            "r": "00",
+            "oy": "01",
+            "w": "11",
+            "color": "Blue"
+        },
+        {
+            "hex": "0c",
+            "genotype": "rrOOWW",
+            "numeric": "0 - 2 - 0",
+            "binary": "00 - 11 - 00",
+            "r": "00",
+            "oy": "11",
+            "w": "00",
+            "color": "Orange (seed)"
+        },
+        {
+            "hex": "0d",
+            "genotype": "rrOOWw",
+            "numeric": "0 - 2 - 1",
+            "binary": "00 - 11 - 01",
+            "r": "00",
+            "oy": "11",
+            "w": "01",
+            "color": "Orange"
+        },
+        {
+            "hex": "0f",
+            "genotype": "rrOOww",
+            "numeric": "0 - 2 - 2",
+            "binary": "00 - 11 - 11",
+            "r": "00",
+            "oy": "11",
+            "w": "11",
+            "color": "Orange"
+        },
+        {
+            "hex": "10",
+            "genotype": "RrooWW",
+            "numeric": "1 - 0 - 0",
+            "binary": "01 - 00 - 00",
+            "r": "01",
+            "oy": "00",
+            "w": "00",
+            "color": "Red"
+        },
+        {
+            "hex": "11",
+            "genotype": "RrooWw",
+            "numeric": "1 - 0 - 1",
+            "binary": "01 - 00 - 01",
+            "r": "01",
+            "oy": "00",
+            "w": "01",
+            "color": "Red"
+        },
+        {
+            "hex": "13",
+            "genotype": "Rrooww",
+            "numeric": "1 - 0 - 2",
+            "binary": "01 - 00 - 11",
+            "r": "01",
+            "oy": "00",
+            "w": "11",
+            "color": "Blue"
+        },
+        {
+            "hex": "14",
+            "genotype": "RrOoWW",
+            "numeric": "1 - 1 - 0",
+            "binary": "01 - 01 - 00",
+            "r": "01",
+            "oy": "01",
+            "w": "00",
+            "color": "Pink"
+        },
+        {
+            "hex": "15",
+            "genotype": "RrOoWw",
+            "numeric": "1 - 1 - 1",
+            "binary": "01 - 01 - 01",
+            "r": "01",
+            "oy": "01",
+            "w": "01",
+            "color": "Pink"
+        },
+        {
+            "hex": "17",
+            "genotype": "RrOoww",
+            "numeric": "1 - 1 - 2",
+            "binary": "01 - 01 - 11",
+            "r": "01",
+            "oy": "01",
+            "w": "11",
+            "color": "Pink"
+        },
+        {
+            "hex": "1c",
+            "genotype": "RrOOWW",
+            "numeric": "1 - 2 - 0",
+            "binary": "01 - 11 - 00",
+            "r": "01",
+            "oy": "11",
+            "w": "00",
+            "color": "Orange"
+        },
+        {
+            "hex": "1d",
+            "genotype": "RrOOWw",
+            "numeric": "1 - 2 - 1",
+            "binary": "01 - 11 - 01",
+            "r": "01",
+            "oy": "11",
+            "w": "01",
+            "color": "Orange"
+        },
+        {
+            "hex": "1f",
+            "genotype": "RrOOww",
+            "numeric": "1 - 2 - 2",
+            "binary": "01 - 11 - 11",
+            "r": "01",
+            "oy": "11",
+            "w": "11",
+            "color": "Orange"
+        },
+        {
+            "hex": "30",
+            "genotype": "RRooWW",
+            "numeric": "2 - 0 - 0",
+            "binary": "11 - 00 - 00",
+            "r": "11",
+            "oy": "00",
+            "w": "00",
+            "color": "Red (seed)"
+        },
+        {
+            "hex": "31",
+            "genotype": "RRooWw",
+            "numeric": "2 - 0 - 1",
+            "binary": "11 - 00 - 01",
+            "r": "11",
+            "oy": "00",
+            "w": "01",
+            "color": "Red"
+        },
+        {
+            "hex": "33",
+            "genotype": "RRooww",
+            "numeric": "2 - 0 - 2",
+            "binary": "11 - 00 - 11",
+            "r": "11",
+            "oy": "00",
+            "w": "11",
+            "color": "Purple"
+        },
+        {
+            "hex": "34",
+            "genotype": "RROoWW",
+            "numeric": "2 - 1 - 0",
+            "binary": "11 - 01 - 00",
+            "r": "11",
+            "oy": "01",
+            "w": "00",
+            "color": "Red"
+        },
+        {
+            "hex": "35",
+            "genotype": "RROoWw",
+            "numeric": "2 - 1 - 1",
+            "binary": "11 - 01 - 01",
+            "r": "11",
+            "oy": "01",
+            "w": "01",
+            "color": "Red"
+        },
+        {
+            "hex": "37",
+            "genotype": "RROoww",
+            "numeric": "2 - 1 - 2",
+            "binary": "11 - 01 - 11",
+            "r": "11",
+            "oy": "01",
+            "w": "11",
+            "color": "Purple"
+        },
+        {
+            "hex": "3c",
+            "genotype": "RROOWW",
+            "numeric": "2 - 2 - 0",
+            "binary": "11 - 11 - 00",
+            "r": "11",
+            "oy": "11",
+            "w": "00",
+            "color": "Pink"
+        },
+        {
+            "hex": "3d",
+            "genotype": "RROOWw",
+            "numeric": "2 - 2 - 1",
+            "binary": "11 - 11 - 01",
+            "r": "11",
+            "oy": "11",
+            "w": "01",
+            "color": "Pink"
+        },
+        {
+            "hex": "3f",
+            "genotype": "RROOww",
+            "numeric": "2 - 2 - 2",
+            "binary": "11 - 11 - 11",
+            "r": "11",
+            "oy": "11",
+            "w": "11",
+            "color": "Purple"
+        }
+    ],
+    "Carnations": [
+        {
+            "hex": "00",
+            "binary": "00 - 00",
+            "x": "00",
+            "color": "Unknown"
+        },
+        {
+            "hex": "01",
+            "binary": "00 - 01",
+            "x": "01",
+            "color": "Unknown"
+        },
+        {
+            "hex": "03",
+            "binary": "00 - 11",
+            "x": "11",
+            "color": "Unknown"
+        },
+        {
+            "hex": "04",
+            "binary": "01 - 00",
+            "x": "00",
+            "color": "Unknown"
+        },
+        {
+            "hex": "05",
+            "binary": "01 - 01",
+            "x": "01",
+            "color": "Pink (mail)"
+        },
+        {
+            "hex": "07",
+            "binary": "01 - 11",
+            "x": "11",
+            "color": "Unknown"
+        },
+        {
+            "hex": "0c",
+            "binary": "11 - 00",
+            "x": "00",
+            "color": "Unknown"
+        },
+        {
+            "hex": "0d",
+            "binary": "11 - 01",
+            "x": "01",
+            "color": "Red (mail)"
+        },
+        {
+            "hex": "0f",
+            "binary": "11 - 11",
+            "x": "11",
+            "color": "Unknown"
+        }
+    ],
+    "Violets": [
+        {
+            "hex": "00",
+            "binary": "00 - 00 - 00",
+            "x": "00",
+            "color": "Unknown"
+        },
+        {
+            "hex": "01",
+            "binary": "00 - 00 - 01",
+            "x": "01",
+            "color": "White (seed)"
+        },
+        {
+            "hex": "03",
+            "binary": "00 - 00 - 11",
+            "x": "11",
+            "color": "Unknown"
+        },
+        {
+            "hex": "04",
+            "binary": "00 - 01 - 00",
+            "x": "00",
+            "color": "Unknown"
+        },
+        {
+            "hex": "05",
+            "binary": "00 - 01 - 01",
+            "x": "01",
+            "color": "Unknown"
+        },
+        {
+            "hex": "07",
+            "binary": "00 - 01 - 11",
+            "x": "11",
+            "color": "Unknown"
+        },
+        {
+            "hex": "0c",
+            "binary": "00 - 11 - 00",
+            "x": "00",
+            "color": "Purple (seed)"
+        },
+        {
+            "hex": "0d",
+            "binary": "00 - 11 - 01",
+            "x": "01",
+            "color": "Unknown"
+        },
+        {
+            "hex": "0f",
+            "binary": "00 - 11 - 11",
+            "x": "11",
+            "color": "Unknown"
+        },
+        {
+            "hex": "10",
+            "binary": "01 - 00 - 00",
+            "x": "00",
+            "color": "Yellow (seed)"
+        },
+        {
+            "hex": "11",
+            "binary": "01 - 00 - 01",
+            "x": "01",
+            "color": "Unknown"
+        },
+        {
+            "hex": "13",
+            "binary": "01 - 00 - 11",
+            "x": "11",
+            "color": "Unknown"
+        },
+        {
+            "hex": "14",
+            "binary": "01 - 01 - 00",
+            "x": "00",
+            "color": "Unknown"
+        },
+        {
+            "hex": "15",
+            "binary": "01 - 01 - 01",
+            "x": "01",
+            "color": "Unknown"
+        },
+        {
+            "hex": "17",
+            "binary": "01 - 01 - 11",
+            "x": "11",
+            "color": "Unknown"
+        },
+        {
+            "hex": "1c",
+            "binary": "01 - 11 - 00",
+            "x": "00",
+            "color": "Unknown"
+        },
+        {
+            "hex": "1d",
+            "binary": "01 - 11 - 01",
+            "x": "01",
+            "color": "Unknown"
+        },
+        {
+            "hex": "1f",
+            "binary": "01 - 11 - 11",
+            "x": "11",
+            "color": "Unknown"
+        },
+        {
+            "hex": "30",
+            "binary": "11 - 00 - 00",
+            "x": "00",
+            "color": "Unknown"
+        },
+        {
+            "hex": "31",
+            "binary": "11 - 00 - 01",
+            "x": "01",
+            "color": "Unknown"
+        },
+        {
+            "hex": "33",
+            "binary": "11 - 00 - 11",
+            "x": "11",
+            "color": "Unknown"
+        },
+        {
+            "hex": "34",
+            "binary": "11 - 01 - 00",
+            "x": "00",
+            "color": "Unknown"
+        },
+        {
+            "hex": "35",
+            "binary": "11 - 01 - 01",
+            "x": "01",
+            "color": "Unknown"
+        },
+        {
+            "hex": "37",
+            "binary": "11 - 01 - 11",
+            "x": "11",
+            "color": "Unknown"
+        },
+        {
+            "hex": "3c",
+            "binary": "11 - 11 - 00",
+            "x": "00",
+            "color": "Unknown"
+        },
+        {
+            "hex": "3d",
+            "binary": "11 - 11 - 01",
+            "x": "01",
+            "color": "Unknown"
+        },
+        {
+            "hex": "3f",
+            "binary": "11 - 11 - 11",
+            "x": "11",
+            "color": "Unknown"
+        }
+    ]
+}
