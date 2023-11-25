@@ -1,13 +1,12 @@
+import FlowerSlot from "./flowerSlot"
 const BANK_SIZE = 12
 
 export default function FlowerBank() {
     let slots: any[] = []
 
-    for(let i=1; i < BANK_SIZE; i++){
+    for(let i=1; i < BANK_SIZE+1; i++){
         slots.push((
-            <div>
-                <button className="text-5xl" key={i}>+</button>
-            </div>
+            FlowerSlot({key: i+"bank", flowerName: "Cosmos", alleles: "RryySS"})
         ))
     }
 

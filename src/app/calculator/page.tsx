@@ -10,7 +10,7 @@ function flowerlist() {
 
   for(const flower in geneData){
     flowerlist.push((
-      <div key={flower}>
+      <div className="px-4" key={flower}>
         <Image 
             src="http://placekitten.com/100/100"
             width={100}
@@ -18,29 +18,51 @@ function flowerlist() {
             alt={flower+" icon"}
             >
           </Image>
-          <p>{flower}</p>
+          <p className="text-center">{flower}</p>
       </div>
     ))
   }
 
   return (
-    <div>
+    <div className="flex justify-center">
       {flowerlist}
     </div>
   )
 }
 
-export default function Home() {
+function currentFlowerBanner({ flowerName, alleles }: {flowerName: string, alleles: string}){
+  return (
+    <div className="flex justify-center">
+      <Image 
+        src="http://placekitten.com/150/150"
+        width={150}
+        height={150}
+        alt={flowerName+" icon"}
+        >
+      </Image>
+      <p className="px-3 text-5xl">{flowerName}</p>
+      <div className="mx-5">
+        <p className="text-center text-3xl">{alleles}</p>
+        <p className="">{alleles.length} alleles</p>
+      </div>
+    </div>
+  )
+}
+
+export default function Calculator() {
   return (
     <main>
       <Header></Header>
-      <p>PUNETT SQUAARE TIME BAYBEE</p>
-      {flowerlist()}
-
       <div>
+        {flowerlist()}
+      </div>
+      <div className="py-10">
+        {currentFlowerBanner({flowerName:"Cosmos", alleles: "RYS"})}
+      </div>
 
-        <PunnetSquare parentA={""} parentB={""}></PunnetSquare>
+      <div className="flex">
         <FlowerBank></FlowerBank>
+        <PunnetSquare parentA={""} parentB={""}></PunnetSquare>
       </div>
     </main>
   )
