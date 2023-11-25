@@ -6,7 +6,7 @@ function gridBuilder() {
         let row: any[] = []
 
         for(let y=0; y<4; y++){
-            row.push((<div className="p-5 m-1 bg-red-600" key={x+","+y}></div>))
+            row.push((<div className="p-7 m-1 bg-red-600" key={x+","+y}></div>))
         }
 
         grid.push(<div className="flex" key={x}>{row}</div>)
