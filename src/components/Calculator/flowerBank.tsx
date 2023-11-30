@@ -1,12 +1,13 @@
 import FlowerSlot from "./flowerSlot"
 const BANK_SIZE = 12
 
-export default function FlowerBank() {
+export default function FlowerBank({ handler }: {handler:any}) {
     let slots: any[] = []
 
     for(let i=1; i < BANK_SIZE+1; i++){
         slots.push((
-            FlowerSlot({key: i+"bank", flowerName: "Cosmos", alleles: "RryySS"})
+            // FlowerSlot({key: i+"bank", flowerName: "Cosmos", alleles: "RryySS"})
+            <FlowerSlot key={i+"bank"} flowerName={"Cosmos"} alleles={"RryySS"} handler={handler} />
         ))
     }
 
