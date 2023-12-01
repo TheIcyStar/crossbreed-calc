@@ -5,7 +5,7 @@ const geneData: any = geneDataJson as any //shut up typescript
 const COLORS: { [key: string]: string } = {
     "White (seed)": "bg-purple-50",
     "White": "bg-purple-50",
-    "Pink": "bg-ping-400",
+    "Pink": "bg-pink-400",
     "Red (seed)": "bg-red-500",
     "Red": "bg-red-500",
     "Orange": "bg-orange-600",
@@ -33,19 +33,7 @@ function getAlleleCombos(alleles: string): string[] {
             alleleBuilder += alleles[inner + outer]
 
             //printing this should make it clear, note that "(2^${alleleIndex})" doesn't include outer's ternary statement
-            // console.log(`((${i}/${2**alleleIndex})%2) + (2^${alleleIndex})--> ${inner} + ${outer} = ${inner + outer}`)
-        }
-
-        //Normalize the alleles, capital letter goes first rR --> Rr
-        for(let i = 0; i < alleleBuilder.length; i += 2){
-            let a = alleleBuilder[i]
-            let b = alleleBuilder[i+1]
-            
-            if(a === a.toLowerCase() && b === b.toUpperCase()){
-                let temp = a
-                b = a
-                a = temp
-            }
+            // console.log(`((${i}/${2**alleleIndex})%2) + (2^${alleleIndex})--> ${inner} + ${outer} = ${inner + outer}`) 
         }
 
         //Add to list of alleles
@@ -68,6 +56,22 @@ function calcPunnetSquare(parentAAlleles: string, parentBAlleles: string): strin
             for (let i = 0; i < bCombo.length; i++) {
                 offspringBuilder += aCombo[i] + bCombo[i]
             }
+
+            //Normalize the offspring alleles, capital letter goes first rR --> Rr
+            for(let i = 0; i < offspringBuilder.length -1; i = i+2){
+                let a = offspringBuilder[i]
+                let b = offspringBuilder[i+1]
+                
+                //swap
+                if(a === a.toLowerCase() && b === b.toUpperCase()){
+                    let swapIndex = i
+                    offspringBuilder = offspringBuilder.slice(0, swapIndex==0 ? 0 : swapIndex) + b + offspringBuilder.slice(swapIndex+1, offspringBuilder.length)
+
+                    swapIndex += 1
+                    offspringBuilder = offspringBuilder.slice(0, swapIndex==0 ? 0 : swapIndex) + a + offspringBuilder.slice(swapIndex+1, offspringBuilder.length)
+                }
+            }
+
             newRow.push(offspringBuilder)
         }
         newGeneGrid.push(newRow)
@@ -77,10 +81,17 @@ function calcPunnetSquare(parentAAlleles: string, parentBAlleles: string): strin
 }
 
 function getColorAsTWCSSFromAllele(flowerType: FlowerTypes, allele: string): string {
-    console.log(flowerType)
-    console.log(allele)
+    if(!geneData[flowerType]) {
+        console.error(`Missing ${flowerType} from geneData.json`)
+        return "bg-slate-950 border-4 border-red-500"
+    }
+    if(!geneData[flowerType][allele]) {
+        console.error(`Missing ${allele} allele from geneData.json`)
+        return "bg-slate-950 border-4 border-red-500"
+    }
+
     let color: string = geneData[flowerType][allele].color
-    return COLORS[color] ? COLORS[color] : "bg-slate-950"
+    return COLORS[color] ? COLORS[color] : "bg-slate-950 border-4 border-red-500"
 }
 
 function gridBuilder(flowerType: FlowerTypes, geneGrid: string[][], clickHandler: any) {
@@ -109,19 +120,13 @@ function gridBuilder(flowerType: FlowerTypes, geneGrid: string[][], clickHandler
 }
 
 export default function PunnetSquare({ flowerType, parentA, parentB, handler }: { flowerType: FlowerTypes, parentA: Genotype, parentB: Genotype, handler: any }) {
-    parentA = "Rryyss"
-    parentB = "Rryyss" //left off: fix rRyyss
-
     let alleleGrid = calcPunnetSquare(parentA, parentB)
-    console.log(alleleGrid)
-
 
     return (
         <div>
             <p>Punnett Square</p>
             <p>{parentA}</p>
             <p>{parentB}</p>
-            <p>{alleleGrid}</p>
             {gridBuilder(flowerType, alleleGrid, handler)}
         </div>
     )

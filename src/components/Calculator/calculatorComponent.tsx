@@ -53,8 +53,8 @@ function currentFlowerBanner({ flowerName, alleles }: { flowerName: string, alle
 export default function Calculator() {
   const [flowerType, setFlowerType] = useState("Cosmos")
   const [flowerBank, setFlowerBank] = useState<string[]>(Array(12).map(() => "")) //Array of empty strings
-  const [parentA, setParentA] = useState<string>("")
-  const [parentB, setParentB] = useState<string>("")
+  const [parentA, setParentA] = useState<string>("RrYySs")
+  const [parentB, setParentB] = useState<string>("RrYySs")
 
   function handleSlotClick(alleles: string) {
     console.log(`Clicked on flower with ${alleles}`)
