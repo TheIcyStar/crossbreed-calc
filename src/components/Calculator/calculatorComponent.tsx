@@ -1,11 +1,12 @@
 'use client'
 import { useState } from "react"
 import Image from 'next/image'
-import geneData from "@/resources/geneData.json"
 import FlowerBank from "./flowerBank"
 import PunnetSquare from "./punnettSquare"
 import FlowerSlot from "./flowerSlot"
-
+import { GenotypeData } from "@/typeDefs/geneDataTypes"
+import geneDataJson from "@/resources/geneData.json"
+const geneData: any = geneDataJson as any //shut up typescript
 
 function flowerlist(clickHandler: any) {
   let flowerlist: any[] = []
@@ -49,7 +50,7 @@ function currentFlowerBanner({ flowerName, alleleExample }: { flowerName: string
       </Image>
       <p className="px-3 text-5xl">{flowerName}</p>
       <div className="mx-5">
-        <p className="text-center text-3xl">{uniqueLetters}</p>
+        <p className="text-center text-3xl">{uniqueLetters.toUpperCase()}</p>
         <p className="">{alleleExample.length/2} alleles</p>
       </div>
     </div>
@@ -74,8 +75,22 @@ export default function Calculator() {
     console.log(`Clicked on punnet grid with ${alleles}`)
   }
 
+  //Changes flower type and resets everything
   function handleFlowerTypeClick(type: string){
+    let defaultFlowerGeneotypes = []
+    
+    let genotype: string
+    for(genotype in geneData[type]){
+      if(geneData[type][genotype].color.endsWith("(seed)")){
+        defaultFlowerGeneotypes.push(genotype)
+      }
+    }
+    
+
     setFlowerType(type)
+    setFlowerBank(defaultFlowerGeneotypes)
+    setParentA(defaultFlowerGeneotypes[0])
+    setParentB(defaultFlowerGeneotypes[1])
     console.log(`Clicked on new flower type with ${type}`)
   }
 
