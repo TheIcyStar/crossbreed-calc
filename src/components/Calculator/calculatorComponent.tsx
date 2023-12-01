@@ -56,8 +56,16 @@ export default function Calculator() {
   const [parentA, setParentA] = useState<string>("")
   const [parentB, setParentB] = useState<string>("")
 
-  function handleSlotClick(event: any) {
-    console.log(event)
+  function handleSlotClick(alleles: string) {
+    console.log(`Clicked on flower with ${alleles}`)
+  }
+
+  function handleParentClick(alleles: string, parent: string) {
+    console.log(`Clicked on parent ${parent} with ${alleles}`)
+  }
+
+  function handlePunnetClick(alleles: string) {
+    console.log(`Clicked on punnet grid with ${alleles}`)
   }
 
   return (
@@ -70,8 +78,8 @@ export default function Calculator() {
       </div>
 
       <div className="flex">
-        <FlowerBank handler={handleSlotClick} ></FlowerBank>
-        <PunnetSquare parentA={""} parentB={""}></PunnetSquare>
+        <FlowerBank handler={handleSlotClick} handlerMetadata="" ></FlowerBank>
+        <PunnetSquare parentA={parentA} parentB={parentB}></PunnetSquare>
       </div>
     </div>
   )
