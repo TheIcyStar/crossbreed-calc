@@ -4,7 +4,6 @@ import Image from 'next/image'
 import FlowerBank from "./flowerBank"
 import PunnetSquare from "./punnettSquare"
 import FlowerSlot from "./flowerSlot"
-import { GenotypeData } from "@/typeDefs/geneDataTypes"
 import geneDataJson from "@/resources/geneData.json"
 const geneData: any = geneDataJson as any //shut up typescript
 
@@ -104,13 +103,13 @@ export default function Calculator() {
       </div>
 
       <div className="flex">
-        <FlowerBank handler={handleSlotClick} handlerMetadata="" ></FlowerBank>
+        <FlowerBank flowerType={flowerType} flowerBank={flowerBank} handler={handleSlotClick} handlerMetadata="" ></FlowerBank>
         
         <div>
           <div className="flex justify-center">
             <FlowerSlot flowerName={flowerType} alleles={parentA} handler={handleParentClick} handlerMetadata="A" ></FlowerSlot>
             <p className="text-3xl"> X </p>
-            <FlowerSlot flowerName={flowerType} alleles={parentA} handler={handleParentClick} handlerMetadata="B" ></FlowerSlot>
+            <FlowerSlot flowerName={flowerType} alleles={parentB} handler={handleParentClick} handlerMetadata="B" ></FlowerSlot>
           </div>
 
           <PunnetSquare flowerType={flowerType} parentA={parentA} parentB={parentB} handler={handlePunnetClick}></PunnetSquare>

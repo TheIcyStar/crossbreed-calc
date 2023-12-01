@@ -1,13 +1,11 @@
 import FlowerSlot from "./flowerSlot"
-const BANK_SIZE = 12
 
-export default function FlowerBank({ handler, handlerMetadata }: {handler:any, handlerMetadata: string}) {
+export default function FlowerBank({ flowerType, flowerBank, handler, handlerMetadata }: {flowerType: string, flowerBank: string[], handler:any, handlerMetadata: string}) {
     let slots: any[] = []
 
-    for(let i=1; i < BANK_SIZE+1; i++){
+    for(let i=0; i < flowerBank.length; i++){
         slots.push((
-            // FlowerSlot({key: i+"bank", flowerName: "Cosmos", alleles: "RryySS"})
-            <FlowerSlot key={i+"bank"} flowerName={"Cosmos"} alleles={"RryySS"} handler={handler} handlerMetadata={handlerMetadata} />
+            <FlowerSlot key={i+"bank"} flowerName={flowerType} alleles={flowerBank[i]} handler={handler} handlerMetadata={handlerMetadata} />
         ))
     }
 
