@@ -4,14 +4,15 @@ import Image from 'next/image'
 import geneData from "@/resources/geneData.json"
 import FlowerBank from "./flowerBank"
 import PunnetSquare from "./punnettSquare"
+import FlowerSlot from "./flowerSlot"
 
 
-function flowerlist() {
+function flowerlist(clickHandler: any) {
   let flowerlist: any[] = []
 
   for (const flower in geneData) {
     flowerlist.push((
-      <div className="px-4" key={flower}>
+      <div className="px-4" key={flower} onClick={() => clickHandler(flower)}>
         <Image
           src="http://placekitten.com/100/100"
           width={100}
@@ -31,7 +32,12 @@ function flowerlist() {
   )
 }
 
-function currentFlowerBanner({ flowerName, alleles }: { flowerName: string, alleles: string }) {
+function currentFlowerBanner({ flowerName, alleleExample }: { flowerName: string, alleleExample: string}) {
+  let uniqueLetters = ""
+  for(let i = 0; i < alleleExample.length -1; i = i+2){
+    uniqueLetters += alleleExample[i]
+  }
+
   return (
     <div className="flex justify-center">
       <Image
@@ -43,15 +49,15 @@ function currentFlowerBanner({ flowerName, alleles }: { flowerName: string, alle
       </Image>
       <p className="px-3 text-5xl">{flowerName}</p>
       <div className="mx-5">
-        <p className="text-center text-3xl">{alleles}</p>
-        <p className="">{alleles.length} alleles</p>
+        <p className="text-center text-3xl">{uniqueLetters}</p>
+        <p className="">{alleleExample.length/2} alleles</p>
       </div>
     </div>
   )
 }
 
 export default function Calculator() {
-  const [flowerType, setFlowerType] = useState("Cosmos")
+  const [flowerType, setFlowerType] = useState<string>("Cosmos")
   const [flowerBank, setFlowerBank] = useState<string[]>(Array(12).map(() => "")) //Array of empty strings
   const [parentA, setParentA] = useState<string>("RrYySs")
   const [parentB, setParentB] = useState<string>("RrYySs")
@@ -68,18 +74,33 @@ export default function Calculator() {
     console.log(`Clicked on punnet grid with ${alleles}`)
   }
 
+  function handleFlowerTypeClick(type: string){
+    setFlowerType(type)
+    console.log(`Clicked on new flower type with ${type}`)
+  }
+
   return (
     <div>
       <div>
-        {flowerlist()}
+        {flowerlist(handleFlowerTypeClick)}
       </div>
       <div className="py-10">
-        {currentFlowerBanner({ flowerName: "Cosmos", alleles: "RYS" })}
+        {currentFlowerBanner({ flowerName: flowerType, alleleExample: parentA })}
       </div>
 
       <div className="flex">
         <FlowerBank handler={handleSlotClick} handlerMetadata="" ></FlowerBank>
-        <PunnetSquare flowerType={flowerType} parentA={parentA} parentB={parentB} handler={handlePunnetClick}></PunnetSquare>
+        
+        <div>
+          <div className="flex justify-center">
+            <FlowerSlot flowerName={flowerType} alleles={parentA} handler={handleParentClick} handlerMetadata="A" ></FlowerSlot>
+            <p className="text-3xl"> X </p>
+            <FlowerSlot flowerName={flowerType} alleles={parentA} handler={handleParentClick} handlerMetadata="B" ></FlowerSlot>
+          </div>
+
+          <PunnetSquare flowerType={flowerType} parentA={parentA} parentB={parentB} handler={handlePunnetClick}></PunnetSquare>
+        </div>
+
       </div>
     </div>
   )

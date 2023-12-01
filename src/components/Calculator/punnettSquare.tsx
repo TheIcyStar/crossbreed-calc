@@ -124,9 +124,6 @@ export default function PunnetSquare({ flowerType, parentA, parentB, handler }: 
 
     return (
         <div>
-            <p>Punnett Square</p>
-            <p>{parentA}</p>
-            <p>{parentB}</p>
             {gridBuilder(flowerType, alleleGrid, handler)}
         </div>
     )
