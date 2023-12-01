@@ -35,6 +35,20 @@ function getAlleleCombos(alleles: string): string[] {
             //printing this should make it clear, note that "(2^${alleleIndex})" doesn't include outer's ternary statement
             // console.log(`((${i}/${2**alleleIndex})%2) + (2^${alleleIndex})--> ${inner} + ${outer} = ${inner + outer}`)
         }
+
+        //Normalize the alleles, capital letter goes first rR --> Rr
+        for(let i = 0; i < alleleBuilder.length; i += 2){
+            let a = alleleBuilder[i]
+            let b = alleleBuilder[i+1]
+            
+            if(a === a.toLowerCase() && b === b.toUpperCase()){
+                let temp = a
+                b = a
+                a = temp
+            }
+        }
+
+        //Add to list of alleles
         combos.push(alleleBuilder)
     }
 
