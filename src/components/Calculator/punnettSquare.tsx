@@ -1,15 +1,46 @@
-import { Genotype } from "@/typeDefs/geneDataTypes";
+import { GenotypeData, Genotype } from "@/typeDefs/geneDataTypes";
 
-function gridBuilder() {
+const tempData = [
+    [{"r": "00","y":"00","s":"11","color":"White"},{"r":"00","y":"01","s":"00","color":"Yellow"},{"r": "00","y":"00","s":"11","color":"White"},{"r": "00","y":"00","s":"11","color":"White"}],
+    [{"r": "00","y":"00","s":"11","color":"White"},{"r":"00","y":"01","s":"00","color":"Yellow"},{"r": "00","y":"00","s":"11","color":"White"},{"r": "00","y":"00","s":"11","color":"White"}],
+    [{"r": "00","y":"00","s":"11","color":"White"},{"r":"00","y":"01","s":"00","color":"Yellow"},{"r": "00","y":"00","s":"11","color":"White"},{"r": "00","y":"00","s":"11","color":"White"}],
+    [{"r": "00","y":"00","s":"11","color":"White"},{"r":"00","y":"01","s":"00","color":"Yellow"},{"r": "00","y":"00","s":"11","color":"White"},{"r": "00","y":"00","s":"11","color":"White"}],
+]
+
+const COLORS: {[key: string]: string} = {
+    "White (seed)": "bg-purple-50",
+    "White": "bg-purple-50",
+    "Pink": "bg-ping-400",
+    "Red (seed)": "bg-red-500",
+    "Red": "bg-red-500",
+    "Orange": "bg-orange-600",
+    "Yellow (seed)": "bg-yellow-400",
+    "Yellow": "bg-yellow-400",
+    "Green": "bg-green-500",
+    "Purple": "bg-purple-500",
+    "Black": "bg-neutral-900",
+}
+
+function getColorAsTWCSS(color: string): string {
+    return COLORS[color] ? COLORS[color] : "bg-slate-950"
+}
+
+function gridBuilder(genegrid: GenotypeData[][], clickHandler: any) {
     let grid: any[] = []
-    for(let x=0; x<4; x++){
-        let row: any[] = []
+    let x = 0
+    let y = 0
 
-        for(let y=0; y<4; y++){
-            row.push((<div className="p-7 m-1 bg-red-600" key={x+","+y}></div>))
+    for(const dataRow of genegrid){
+        let row: any[] = []
+        y = 0
+
+        for(const dataCol of dataRow){
+            row.push((<div className={`p-7 m-1 ${getColorAsTWCSS(dataCol.color)}`} key={x+","+y}></div>))
+            y += 1
         }
 
         grid.push(<div className="flex" key={x}>{row}</div>)
+        x += 1
     }
 
     return (
@@ -19,12 +50,12 @@ function gridBuilder() {
     )
 }
 
-export default function PunnetSquare({ parentA, parentB }: { parentA: Genotype, parentB: Genotype}) {
+export default function PunnetSquare({ parentA, parentB, handler }: { parentA: Genotype, parentB: Genotype, handler: any}) {
 
     return (
         <div>
-            <p>poonet square</p>
-            {gridBuilder()}
+            <p>Punnett Square</p>
+            {gridBuilder(tempData, handler)}
         </div>
     )
 }
