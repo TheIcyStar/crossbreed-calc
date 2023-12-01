@@ -79,7 +79,7 @@ export default function Calculator() {
 
       <div className="flex">
         <FlowerBank handler={handleSlotClick} handlerMetadata="" ></FlowerBank>
-        <PunnetSquare parentA={parentA} parentB={parentB} handler={handlePunnetClick}></PunnetSquare>
+        <PunnetSquare flowerType={flowerType} parentA={parentA} parentB={parentB} handler={handlePunnetClick}></PunnetSquare>
       </div>
     </div>
   )

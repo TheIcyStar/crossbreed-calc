@@ -1,7 +1,7 @@
 import Image from 'next/image'
 // import Draggable from 'react-draggable' //Make dragable in the future
 
-export default function FlowerSlot({ key, flowerName, alleles, handler, handlerMetadata }: {key: string, flowerName?: string, alleles?: string, handler: any, handlerMetadata: string}) {
+export default function FlowerSlot({ flowerName, alleles, handler, handlerMetadata }: {flowerName?: string, alleles?: string, handler: any, handlerMetadata: string}) {
     if(flowerName){
         return (
             <button className="bg-stone-500 pl-2 pr-24 py-1 m-1 flex" onClick={() => handler(alleles, handlerMetadata)} >

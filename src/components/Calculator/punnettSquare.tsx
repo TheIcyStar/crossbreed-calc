@@ -1,13 +1,8 @@
-import { GenotypeData, Genotype } from "@/typeDefs/geneDataTypes";
+import { Genotype, FlowerTypes } from "@/typeDefs/geneDataTypes";
+import geneDataJson from "@/resources/geneData.json"
+const geneData: any = geneDataJson as any //shut up typescript
 
-const tempData = [
-    [{"r": "00","y":"00","s":"11","color":"White"},{"r":"00","y":"01","s":"00","color":"Yellow"},{"r": "00","y":"00","s":"11","color":"White"},{"r": "00","y":"00","s":"11","color":"White"}],
-    [{"r": "00","y":"00","s":"11","color":"White"},{"r":"00","y":"01","s":"00","color":"Yellow"},{"r": "00","y":"00","s":"11","color":"White"},{"r": "00","y":"00","s":"11","color":"White"}],
-    [{"r": "00","y":"00","s":"11","color":"White"},{"r":"00","y":"01","s":"00","color":"Yellow"},{"r": "00","y":"00","s":"11","color":"White"},{"r": "00","y":"00","s":"11","color":"White"}],
-    [{"r": "00","y":"00","s":"11","color":"White"},{"r":"00","y":"01","s":"00","color":"Yellow"},{"r": "00","y":"00","s":"11","color":"White"},{"r": "00","y":"00","s":"11","color":"White"}],
-]
-
-const COLORS: {[key: string]: string} = {
+const COLORS: { [key: string]: string } = {
     "White (seed)": "bg-purple-50",
     "White": "bg-purple-50",
     "Pink": "bg-ping-400",
@@ -21,21 +16,70 @@ const COLORS: {[key: string]: string} = {
     "Black": "bg-neutral-900",
 }
 
-function getColorAsTWCSS(color: string): string {
+//Returns the possible permutations of a single parent's cross (This is what goes on the top and side of the punnet square)
+function getAlleleCombos(alleles: string): string[] {
+    let numAlleles = alleles.length / 2
+    let combos = []
+
+    // Basically count up in binary, but instead of 0s and 1s, we use each halves of that allele.
+    // 010 of RrYySs => RyS
+    // Except this code just does a funny. Powers of 2 for the win.
+    for (let i = 0; i < (2 ** numAlleles); i++) {
+        let alleleBuilder = ""
+
+        for (let alleleIndex = 0; alleleIndex < numAlleles; alleleIndex++) {
+            let inner = Math.floor(i / (2 ** alleleIndex)) % 2 //offset inside one allele: >>R<<r or R>>r<<
+            let outer = alleleIndex == 0 ? 0 : 2 ** alleleIndex //offset for in between alleles: >>Rr<<YySs
+            alleleBuilder += alleles[inner + outer]
+
+            //printing this should make it clear, note that "(2^${alleleIndex})" doesn't include outer's ternary statement
+            // console.log(`((${i}/${2**alleleIndex})%2) + (2^${alleleIndex})--> ${inner} + ${outer} = ${inner + outer}`)
+        }
+        combos.push(alleleBuilder)
+    }
+
+    return combos
+}
+
+function calcPunnetSquare(parentAAlleles: string, parentBAlleles: string): string[][] {
+    let parentACombos = getAlleleCombos(parentAAlleles)
+    let parentBCombos = getAlleleCombos(parentBAlleles)
+
+    let newGeneGrid: string[][] = []
+
+    for (const bCombo of parentBCombos) { //parent B as rows
+        let newRow = []
+        for (const aCombo of parentACombos) { //parent A as columns
+            let offspringBuilder = ""
+            for (let i = 0; i < bCombo.length; i++) {
+                offspringBuilder += aCombo[i] + bCombo[i]
+            }
+            newRow.push(offspringBuilder)
+        }
+        newGeneGrid.push(newRow)
+    }
+
+    return newGeneGrid
+}
+
+function getColorAsTWCSSFromAllele(flowerType: FlowerTypes, allele: string): string {
+    console.log(flowerType)
+    console.log(allele)
+    let color: string = geneData[flowerType][allele].color
     return COLORS[color] ? COLORS[color] : "bg-slate-950"
 }
 
-function gridBuilder(genegrid: GenotypeData[][], clickHandler: any) {
+function gridBuilder(flowerType: FlowerTypes, geneGrid: string[][], clickHandler: any) {
     let grid: any[] = []
     let x = 0
     let y = 0
 
-    for(const dataRow of genegrid){
+    for (const dataRow of geneGrid) {
         let row: any[] = []
         y = 0
 
-        for(const dataCol of dataRow){
-            row.push((<div className={`p-7 m-1 ${getColorAsTWCSS(dataCol.color)}`} key={x+","+y}></div>))
+        for (const dataCol of dataRow) {
+            row.push((<div className={`p-7 m-1 ${getColorAsTWCSSFromAllele(flowerType, dataCol)}`} key={x + "," + y}></div>))
             y += 1
         }
 
@@ -50,12 +94,21 @@ function gridBuilder(genegrid: GenotypeData[][], clickHandler: any) {
     )
 }
 
-export default function PunnetSquare({ parentA, parentB, handler }: { parentA: Genotype, parentB: Genotype, handler: any}) {
+export default function PunnetSquare({ flowerType, parentA, parentB, handler }: { flowerType: FlowerTypes, parentA: Genotype, parentB: Genotype, handler: any }) {
+    parentA = "Rryyss"
+    parentB = "Rryyss" //left off: fix rRyyss
+
+    let alleleGrid = calcPunnetSquare(parentA, parentB)
+    console.log(alleleGrid)
+
 
     return (
         <div>
             <p>Punnett Square</p>
-            {gridBuilder(tempData, handler)}
+            <p>{parentA}</p>
+            <p>{parentB}</p>
+            <p>{alleleGrid}</p>
+            {gridBuilder(flowerType, alleleGrid, handler)}
         </div>
     )
 }
