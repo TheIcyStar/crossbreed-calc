@@ -14,6 +14,7 @@ const COLORS: { [key: string]: string } = {
     "Yellow (seed)": "bg-yellow-400",
     "Yellow": "bg-yellow-400",
     "Green": "bg-green-500",
+    "Blue": "bg-blue-500",
     "Purple": "bg-purple-500",
     "Black": "bg-neutral-900",
 }

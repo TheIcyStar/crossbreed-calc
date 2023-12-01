@@ -12,7 +12,8 @@ const COLORS: { [key: string]: string } = {
     "Yellow (seed)": "bg-yellow-400",
     "Yellow": "bg-yellow-400",
     "Green": "bg-green-500",
-    "Purple": "bg-purple-500",
+    "Blue": "bg-blue-500",
+    "Purple": "bg-purple-700",
     "Black": "bg-neutral-900",
 }
 
@@ -29,13 +30,14 @@ function getAlleleCombos(alleles: string): string[] {
 
         for (let alleleIndex = 0; alleleIndex < numAlleles; alleleIndex++) {
             let inner = Math.floor(i / (2 ** alleleIndex)) % 2 //offset inside one allele: >>R<<r or R>>r<<
-            let outer = alleleIndex == 0 ? 0 : 2 ** alleleIndex //offset for in between alleles: >>Rr<<YySs
+            let outer = alleleIndex == 0 ? 0 : 2 * alleleIndex //offset for in between alleles: >>Rr<<YySs
             alleleBuilder += alleles[inner + outer]
 
             //printing this should make it clear, note that "(2^${alleleIndex})" doesn't include outer's ternary statement
             // console.log(`((${i}/${2**alleleIndex})%2) + (2^${alleleIndex})--> ${inner} + ${outer} = ${inner + outer}`) 
+            // console.log(alleleBuilder)
         }
-
+        
         //Add to list of alleles
         combos.push(alleleBuilder)
     }
@@ -82,11 +84,11 @@ function calcPunnetSquare(parentAAlleles: string, parentBAlleles: string): strin
 
 function getColorAsTWCSSFromAllele(flowerType: FlowerTypes, allele: string): string {
     if(!geneData[flowerType]) {
-        console.error(`Missing ${flowerType} from geneData.json`)
+        // console.error(`Missing ${flowerType} from geneData.json`)
         return "bg-slate-950 border-4 border-red-500"
     }
     if(!geneData[flowerType][allele]) {
-        console.error(`Missing ${allele} allele from geneData.json`)
+        // console.error(`Missing ${allele} allele from geneData.json`)
         return "bg-slate-950 border-4 border-red-500"
     }
 
