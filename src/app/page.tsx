@@ -18,7 +18,7 @@ export default function Home() {
           </Image>
         </div>
         <div>
-          <p>Crossbreed Calc</p>
+          <p className="text-5xl">Crossbreed Calc</p>
           <p className="mb-5">A Punnet square calculator with AC:NL & AC:NH flowers</p>
           <Link href="/" className="px-4 mx-5 py-3 center rounded-xl text-white text-xl bg-slate-700">Start the calculator</Link>
 
