@@ -19,7 +19,7 @@ function flowerlist(clickHandler: any) {
     flowerlist.push((
       <div className="px-4" key={flower} onClick={() => clickHandler(flower)}>
         <Image
-          src="http://placekitten.com/100/100"
+          src={`/${flower}.png`}
           width={100}
           height={100}
           alt={flower + " icon"}
@@ -63,7 +63,7 @@ function currentFlowerBanner({ flowerName, alleleExample }: { flowerName: string
 
 export default function Calculator() {
   const [flowerType, setFlowerType] = useState<string>("Roses")
-  const [flowerBank, setFlowerBank] = useState<string[]>(defaultBanks["Roses"].concat(Array(8).map(() => ""))) //Array of empty strings
+  const [flowerBank, setFlowerBank] = useState<string[]>(defaultBanks["Roses"].concat(Array(8).map(() => ""))) //Array of most "diverse" genotype, the seeds, and empty strings to fill space
   const [parentA, setParentA] = useState<string>("RrYyWwSs")
   const [parentB, setParentB] = useState<string>("RrYyWwSs")
 
