@@ -9,8 +9,9 @@ export default function Header(){
             <div className="flex-auto flex justify-end text-white">
                 <Link href="/" className="px-4 m-2 py-3 center rounded-xl bg-slate-700">Home</Link>
                 <Link href="/calculator" className="px-4 m-2 py-3 rounded-xl bg-slate-700">Calculator</Link>
-                <Link href="/how-genes-work" className="px-4 m-2 py-3 rounded-xl bg-slate-700">How Genes Work</Link>
-                <Link href="/color-list" className="px-8 m-2 py-3 rounded-xl bg-slate-700">Color List</Link>
+                {/* <Link href="/how-genes-work" className="px-4 m-2 py-3 rounded-xl bg-slate-700">How Genes Work</Link> */}
+                {/* <Link href="/color-list" className="px-8 m-2 py-3 rounded-xl bg-slate-700">Color List</Link> */}
+                <Link href="https://docs.google.com/spreadsheets/d/11pRCX8G0xGizSYWgVhoUSu7pE-MV7AOprBcgSY1whB4/edit?usp=sharing" className="px-8 m-2 py-3 rounded-xl bg-slate-700">Color List</Link>
             </div>
         </div>
     )
