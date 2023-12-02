@@ -46,7 +46,7 @@ function currentFlowerBanner({ flowerName, alleleExample }: { flowerName: string
   return (
     <div className="flex justify-center">
       <Image
-        src="http://placekitten.com/150/150"
+        src={`/${flowerName}.png`}
         width={150}
         height={150}
         alt={flowerName + " icon"}
