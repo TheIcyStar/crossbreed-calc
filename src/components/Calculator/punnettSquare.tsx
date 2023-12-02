@@ -29,14 +29,16 @@ function getAlleleCombos(alleles: string): string[] {
     for (let i = 0; i < (2 ** numAlleles); i++) {
         let alleleBuilder = ""
 
+        // Outer - offset inside one allele: >>R<<r or R>>r<<
+        // Inner - offset inside one allele: >>R<<r or R>>r<<
         for (let alleleIndex = 0; alleleIndex < numAlleles; alleleIndex++) {
-            let inner = Math.floor(i / (2 ** alleleIndex)) % 2 //offset inside one allele: >>R<<r or R>>r<<
-            let outer = alleleIndex == 0 ? 0 : 2 * alleleIndex //offset for in between alleles: >>Rr<<YySs
+            let outer = alleleIndex == 0 ? 0 : 2*alleleIndex
+            let inner = Math.floor(i / (2**(numAlleles - 1 -alleleIndex))) % 2
+            // let inner = Math.floor(i / (2**(alleleIndex))) % 2
             alleleBuilder += alleles[inner + outer]
 
             //printing this should make it clear, note that "(2^${alleleIndex})" doesn't include outer's ternary statement
             // console.log(`((${i}/${2**alleleIndex})%2) + (2^${alleleIndex})--> ${inner} + ${outer} = ${inner + outer}`) 
-            // console.log(alleleBuilder)
         }
         
         //Add to list of alleles
@@ -48,7 +50,7 @@ function getAlleleCombos(alleles: string): string[] {
 
 function calcPunnetSquare(parentAAlleles: string, parentBAlleles: string): string[][] {
     let parentACombos = getAlleleCombos(parentAAlleles)
-    let parentBCombos = getAlleleCombos(parentBAlleles)
+    let parentBCombos = getAlleleCombos(parentBAlleles)    
 
     let newGeneGrid: string[][] = []
 
@@ -56,7 +58,7 @@ function calcPunnetSquare(parentAAlleles: string, parentBAlleles: string): strin
         let newRow = []
         for (const aCombo of parentACombos) { //parent A as columns
             let offspringBuilder = ""
-            for (let i = 0; i < bCombo.length; i++) {
+            for (let i = 0; i < aCombo.length; i++) {
                 offspringBuilder += aCombo[i] + bCombo[i]
             }
 
