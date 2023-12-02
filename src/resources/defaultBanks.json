@@ -1,0 +1,10 @@
+{
+    "Roses": ["RrYyWwSs", "rryyWwss", "rrYYWWss", "RRyyWWSs"],
+    "Cosmos": ["RrYySs", "rryySs", "rrYYSs", "RRyyss"],
+    "Lilies": ["RrYySs", "rryySS", "rrYYss", "RRyySs"],
+    "Pansies": ["RrYyWw", "rryyWw", "rrYYWW", "RRyyWW"],
+    "Hyacinths": ["RrYyWw", "rryyWw", "rrYYWW", "RRyyWw"],
+    "Tulips": ["RrYySs", "rryySs", "rrYYss", "RRyySs"],
+    "Mums": ["RrYyWw", "rryyWw", "rrYYWW", "RRyyWW"],
+    "Windflowers": ["RrOoWw", "rrooWw", "rrOOWW", "RRooWW"]
+}

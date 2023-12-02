@@ -4,8 +4,11 @@ import Image from 'next/image'
 import FlowerBank from "./flowerBank"
 import PunnetSquare from "./punnettSquare"
 import FlowerSlot from "./flowerSlot"
+import defaultBanksJson from "@/resources/defaultBanks.json"
 import geneDataJson from "@/resources/geneData.json"
+const defaultBanks: any = defaultBanksJson as any
 const geneData: any = geneDataJson as any //shut up typescript
+
 
 function flowerlist(clickHandler: any) {
   let flowerlist: any[] = []
@@ -76,20 +79,12 @@ export default function Calculator() {
 
   //Changes flower type and resets everything
   function handleFlowerTypeClick(type: string){
-    let defaultFlowerGeneotypes = []
-    
-    let genotype: string
-    for(genotype in geneData[type]){
-      if(geneData[type][genotype].color.endsWith("(seed)")){
-        defaultFlowerGeneotypes.push(genotype)
-      }
-    }
-    
+    let defaultFlowerGeneotypes = defaultBanks[type]
 
     setFlowerType(type)
     setFlowerBank(defaultFlowerGeneotypes)
     setParentA(defaultFlowerGeneotypes[0])
-    setParentB(defaultFlowerGeneotypes[1])
+    setParentB(defaultFlowerGeneotypes[0])
     console.log(`Clicked on new flower type with ${type}`)
   }
 

@@ -107,7 +107,7 @@ function gridBuilder(flowerType: FlowerTypes, geneGrid: string[][], clickHandler
         y = 0
 
         for (const dataCol of dataRow) {
-            row.push((<div className={`p-5 m-1 ${getColorAsTWCSSFromAllele(flowerType, dataCol)}`} onClick={() => clickHandler(dataCol)} key={x + "," + y}></div>))
+            row.push((<div className={`p-5 m-0.5 ${getColorAsTWCSSFromAllele(flowerType, dataCol)}`} onClick={() => clickHandler(dataCol)} key={x + "," + y}></div>))
             y += 1
         }
 

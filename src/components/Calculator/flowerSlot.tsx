@@ -35,7 +35,7 @@ function getColorAsTWCSSFromAllele(flowerType: FlowerTypes, allele: string): str
 }
 
 export default function FlowerSlot({ flowerName, alleles, handler, handlerMetadata }: {flowerName?: string, alleles?: string, handler: any, handlerMetadata: string}) {
-    if(flowerName && alleles){
+    if(flowerName && alleles && alleles.length > 0){
         return (
             <button className={`l-2 pr-24 py-1 m-1 flex ${getColorAsTWCSSFromAllele(flowerName, alleles)}`} onClick={() => handler(alleles, handlerMetadata)} >
                 <Image 
