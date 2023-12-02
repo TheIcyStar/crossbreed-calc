@@ -9,6 +9,8 @@ import geneDataJson from "@/resources/geneData.json"
 const defaultBanks: any = defaultBanksJson as any
 const geneData: any = geneDataJson as any //shut up typescript
 
+const BANK_SIZE = 12
+
 
 function flowerlist(clickHandler: any) {
   let flowerlist: any[] = []
@@ -61,7 +63,7 @@ function currentFlowerBanner({ flowerName, alleleExample }: { flowerName: string
 
 export default function Calculator() {
   const [flowerType, setFlowerType] = useState<string>("Roses")
-  const [flowerBank, setFlowerBank] = useState<string[]>(Array(12).map(() => "")) //Array of empty strings
+  const [flowerBank, setFlowerBank] = useState<string[]>(defaultBanks["Roses"].concat(Array(8).map(() => ""))) //Array of empty strings
   const [parentA, setParentA] = useState<string>("RrYyWwSs")
   const [parentB, setParentB] = useState<string>("RrYyWwSs")
 
@@ -79,10 +81,10 @@ export default function Calculator() {
 
   //Changes flower type and resets everything
   function handleFlowerTypeClick(type: string){
-    let defaultFlowerGeneotypes = defaultBanks[type]
+    let defaultFlowerGeneotypes: string[] = defaultBanks[type]
 
     setFlowerType(type)
-    setFlowerBank(defaultFlowerGeneotypes)
+    setFlowerBank(defaultFlowerGeneotypes.concat(Array(BANK_SIZE - defaultFlowerGeneotypes.length).map(() => "")))
     setParentA(defaultFlowerGeneotypes[0])
     setParentB(defaultFlowerGeneotypes[0])
     console.log(`Clicked on new flower type with ${type}`)
@@ -90,7 +92,7 @@ export default function Calculator() {
 
   return (
     <div>
-      <div>
+      <div className="py-3">
         {flowerlist(handleFlowerTypeClick)}
       </div>
       <div className="py-10">
