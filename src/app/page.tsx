@@ -6,9 +6,8 @@ export default function Home() {
   return (
     <main>
       <Header></Header>
-      <p>LANDING PAGE, BAYBEE</p>
       
-      <div>
+      <div className="flex px-40 py-10">
         <div>
           <Image 
             src="http://placekitten.com/300/300"
@@ -20,13 +19,17 @@ export default function Home() {
         </div>
         <div>
           <p>Crossbreed Calc</p>
-          <p>A Punnet square calculator with AC:NL & AC:NH flowers</p>
-          <Link href="/" className="px-4 m-2 py-3 center rounded-xl text-white text-xl bg-slate-700">Start the calculator</Link>
+          <p className="mb-5">A Punnet square calculator with AC:NL & AC:NH flowers</p>
+          <Link href="/" className="px-4 mx-5 py-3 center rounded-xl text-white text-xl bg-slate-700">Start the calculator</Link>
 
         </div>
       </div>
 
-      <div>
+      <div className="flex px-40 py-10">
+        <div>
+          <p>Full Floral Control</p>
+          <p>Choose a type of flower and the genes you would like to crossbreed with. You can use some preset flowers or create your own</p>
+        </div>
         <div>
           <Image 
             src="http://placekitten.com/300/301"
@@ -36,13 +39,9 @@ export default function Home() {
             >
           </Image>
         </div>
-        <div>
-          <p>Full Floral Control</p>
-          <p>Choose a type of flower and the genes you would like to crossbreed with. You can use some preset flowers or create your own</p>
-        </div>
       </div>
 
-      <div>
+      <div className="flex px-40">
         <div>
           <Image 
             src="http://placekitten.com/301/300"
@@ -58,10 +57,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div>
+      <div className="flex px-40 py-10">
         <p>Ready to get started?</p>
         <Link href="/calculator" className="px-4 m-2 py-3 center rounded-xl text-white text-xl bg-slate-700">Start the calculator</Link>
-        <Link href="/color-list" className="px-4 m-2 py-3 center rounded-xl text-white text-xl bg-slate-700">See the flower colors</Link>
+        {/* <Link href="/color-list" className="px-4 m-2 py-3 center rounded-xl text-white text-xl bg-slate-700">See the flower colors</Link> */}
+        <Link href="https://docs.google.com/spreadsheets/d/11pRCX8G0xGizSYWgVhoUSu7pE-MV7AOprBcgSY1whB4/edit?usp=sharing" className="px-4 m-2 py-3 center rounded-xl text-white text-xl bg-slate-700">See the flower colors</Link>
       </div>
     </main>
   )
