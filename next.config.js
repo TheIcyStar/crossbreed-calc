@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
+        unoptimized: true,
         remotePatterns: [
             {
                 protocol: "http",
@@ -8,7 +9,12 @@ const nextConfig = {
                 pathname: "/**"
             }
         ]
-    }
+    },
+
+    // Used guide: https://github.com/gregrickaby/nextjs-github-pages
+    output: "export",
+    basePath: "/gh-pages",
+
 }
 
 module.exports = nextConfig
