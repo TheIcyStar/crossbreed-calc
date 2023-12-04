@@ -19,7 +19,7 @@ function flowerlist(clickHandler: any) {
     flowerlist.push((
       <div className="px-4" key={flower} onClick={() => clickHandler(flower)}>
         <Image
-          src={`/${flower}.png`}
+          src={`/crossbreed-calc/${flower}.png`}
           width={100}
           height={100}
           alt={flower + " icon"}
@@ -46,7 +46,7 @@ function currentFlowerBanner({ flowerName, alleleExample }: { flowerName: string
   return (
     <div className="flex justify-center">
       <Image
-        src={`/${flowerName}.png`}
+        src={`/crossbreed-calc/${flowerName}.png`}
         width={150}
         height={150}
         alt={flowerName + " icon"}

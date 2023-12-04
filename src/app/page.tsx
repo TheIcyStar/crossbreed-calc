@@ -59,7 +59,7 @@ export default function Home() {
 
       <div className="flex px-40 py-10">
         <p>Ready to get started?</p>
-        <Link href="/calculator" className="px-4 m-2 py-3 center rounded-xl text-white text-xl bg-slate-700">Start the calculator</Link>
+        <Link href="/crossbreed-calc/calculator" className="px-4 m-2 py-3 center rounded-xl text-white text-xl bg-slate-700">Start the calculator</Link>
         {/* <Link href="/color-list" className="px-4 m-2 py-3 center rounded-xl text-white text-xl bg-slate-700">See the flower colors</Link> */}
         <Link href="https://docs.google.com/spreadsheets/d/11pRCX8G0xGizSYWgVhoUSu7pE-MV7AOprBcgSY1whB4/edit?usp=sharing" className="px-4 m-2 py-3 center rounded-xl text-white text-xl bg-slate-700">See the flower colors</Link>
       </div>
