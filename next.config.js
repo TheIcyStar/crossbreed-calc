@@ -13,7 +13,7 @@ const nextConfig = {
 
     // Used guide: https://github.com/gregrickaby/nextjs-github-pages
     output: "export",
-    basePath: "/gh-pages",
+    basePath: "/crossbreed-calc",
 
 }
 

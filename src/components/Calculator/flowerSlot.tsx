@@ -39,7 +39,7 @@ export default function FlowerSlot({ flowerName, alleles, handler, handlerMetada
         return (
             <button className={`l-2 pr-24 py-1 m-1 flex ${getColorAsTWCSSFromAllele(flowerName, alleles)}`} onClick={() => handler(alleles, handlerMetadata)} >
                 <Image 
-                    src={`/${flowerName}.png`}
+                    src={`/crossbreed-calc/${flowerName}.png`}
                     width={50}
                     height={50}
                     alt={flowerName+" icon"}>
