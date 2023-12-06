@@ -139,9 +139,10 @@ function gridBuilder(flowerType: FlowerTypes, clickHandler: any, geneGrid?: stri
 
 export default function PunnetSquare({ flowerType, parentA, parentB, handler }: { flowerType: FlowerTypes, parentA?: Genotype, parentB?: Genotype, handler: any }) {
     //maintain size while 
-    const [recentSize, setRecentSize] = useState<number>(4)
+    // const [recentSize, setRecentSize] = useState<number>(4)
     
     if(parentA && parentB && parentA !== "" && parentB !== ""){
+        // setRecentSize(parentA.length / 2)
         let alleleGrid = calcPunnetSquare(parentA, parentB)
 
         return (
@@ -153,7 +154,7 @@ export default function PunnetSquare({ flowerType, parentA, parentB, handler }: 
     } else { //One of the parents is missing, so make an empty grid for consistency
         return (
             <div>
-                {gridBuilder(flowerType, handler, undefined, recentSize)}
+                {gridBuilder(flowerType, handler, undefined, 4)}
             </div>
         )
     }
