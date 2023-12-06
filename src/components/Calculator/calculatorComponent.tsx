@@ -63,20 +63,55 @@ function currentFlowerBanner({ flowerName, alleleExample }: { flowerName: string
 
 export default function Calculator() {
   const [flowerType, setFlowerType] = useState<string>("Roses")
-  const [flowerBank, setFlowerBank] = useState<string[]>(defaultBanks["Roses"].concat(Array(8).map(() => ""))) //Array of most "diverse" genotype, the seeds, and empty strings to fill space
+  const [flowerBank, setFlowerBank] = useState<string[]>(defaultBanks[flowerType].concat(Array(8).map(() => ""))) //Array of most "diverse" genotype, the seeds, and empty strings to fill space
   const [parentA, setParentA] = useState<string>("RrYyWwSs")
   const [parentB, setParentB] = useState<string>("RrYyWwSs")
 
   function handleSlotClick(alleles: string) {
-    console.log(`Clicked on flower with ${alleles}`)
+    console.log(`Clicked on flower in flowerbank with ${alleles}\nParents are: ${parentA}, ${parentB}`)
+
+    if(parentA !== "" && parentB === "") { //fill empty slots left to right
+      setParentB(alleles)
+    } else if(parentA === ""){
+      setParentA(alleles)
+    }
   }
 
   function handleParentClick(alleles: string, parent: string) {
     console.log(`Clicked on parent ${parent} with ${alleles}`)
+    let curParent
+    let setParent
+    if(parent === "A"){
+      curParent = parentA
+      setParent = setParentA
+    } else if(parent === "B"){
+      curParent = parentB
+      setParent = setParentB
+    } else {
+      return
+    }
+
+    //delete on click for now, later pop up a lil dialog box
+    setParent("")
   }
 
   function handlePunnetClick(alleles: string) {
     console.log(`Clicked on punnet grid with ${alleles}`)
+    let openSlot = flowerBank.findIndex((slot) => slot === undefined)
+    console.log(flowerBank)
+    if(openSlot !== -1){
+      let newFlowerBank = [...flowerBank]
+      newFlowerBank[openSlot] = alleles
+      setFlowerBank(newFlowerBank)
+    }
+  }
+
+  function handleBankActionClick(action: string) {
+    if(action === "reset") {
+      setFlowerBank(defaultBanks[flowerType].concat(Array(8).map(() => "")))
+    } else if(action === "empty") {
+      setFlowerBank(Array(12).map(() => ""))
+    }
   }
 
   //Changes flower type and resets everything
@@ -100,7 +135,7 @@ export default function Calculator() {
       </div>
 
       <div className="flex">
-        <FlowerBank flowerType={flowerType} flowerBank={flowerBank} handler={handleSlotClick} handlerMetadata="" ></FlowerBank>
+        <FlowerBank flowerType={flowerType} flowerBank={flowerBank} slotHandler={handleSlotClick} handlerMetadata="" actionHandler={handleBankActionClick} ></FlowerBank>
         
         <div>
           <div className="flex justify-center">
