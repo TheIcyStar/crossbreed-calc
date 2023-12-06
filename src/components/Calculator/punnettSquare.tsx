@@ -1,3 +1,4 @@
+import { useState } from "react"
 import { Genotype, FlowerTypes } from "@/typeDefs/geneDataTypes";
 import geneDataJson from "@/resources/geneData.json"
 const geneData: any = geneDataJson as any //shut up typescript
@@ -15,7 +16,7 @@ const COLORS: { [key: string]: string } = {
     "Green": "bg-green-500",
     "Blue": "bg-blue-500",
     "Purple": "bg-purple-700",
-    "Black": "bg-neutral-900",
+    "Black": "bg-neutral-900 text-white",
 }
 
 //Returns the possible permutations of a single parent's cross (This is what goes on the top and side of the punnet square)
@@ -50,7 +51,7 @@ function getAlleleCombos(alleles: string): string[] {
 
 function calcPunnetSquare(parentAAlleles: string, parentBAlleles: string): string[][] {
     let parentACombos = getAlleleCombos(parentAAlleles)
-    let parentBCombos = getAlleleCombos(parentBAlleles)    
+    let parentBCombos = getAlleleCombos(parentBAlleles)
 
     let newGeneGrid: string[][] = []
 
@@ -99,23 +100,35 @@ function getColorAsTWCSSFromAllele(flowerType: FlowerTypes, allele: string): str
     return COLORS[color] ? COLORS[color] : "bg-slate-950 border-4 border-red-500"
 }
 
-function gridBuilder(flowerType: FlowerTypes, geneGrid: string[][], clickHandler: any) {
+function gridBuilder(flowerType: FlowerTypes, clickHandler: any, geneGrid?: string[][], gridSize?: number) {
     let grid: any[] = []
-    let x = 0
-    let y = 0
 
-    for (const dataRow of geneGrid) {
+    if(!geneGrid && gridSize){ //Empty grid if there is no computed gene grid (due to a lack of a parent)
+        for(let x = 0; x < 2**gridSize; x++){
         let row: any[] = []
-        y = 0
-
-        for (const dataCol of dataRow) {
-            row.push((<div className={`p-5 m-0.5 ${getColorAsTWCSSFromAllele(flowerType, dataCol)}`} onClick={() => clickHandler(dataCol)} key={x + "," + y}></div>))
-            y += 1
+            for(let y = 0; y < 2**gridSize; y++){
+                row.push((<div className={`p-5 m-0.5 bg-gray-600`} key={x + "," + y}></div>))
+            }
+            grid.push(<div className="flex" key={x}>{row}</div>)
         }
 
-        grid.push(<div className="flex" key={x}>{row}</div>)
-        x += 1
+    } else if (geneGrid) { //Full gene grid
+        let x = 0
+        let y = 0
+        for (const dataRow of geneGrid) {
+            let row: any[] = []
+            y = 0
+    
+            for (const dataCol of dataRow) {
+                row.push((<div className={`p-5 m-0.5 ${getColorAsTWCSSFromAllele(flowerType, dataCol)}`} onClick={() => clickHandler(dataCol)} key={x + "," + y}></div>))
+                y += 1
+            }
+    
+            grid.push(<div className="flex" key={x}>{row}</div>)
+            x += 1
+        }
     }
+
 
     return (
         <div className="">
@@ -124,12 +137,24 @@ function gridBuilder(flowerType: FlowerTypes, geneGrid: string[][], clickHandler
     )
 }
 
-export default function PunnetSquare({ flowerType, parentA, parentB, handler }: { flowerType: FlowerTypes, parentA: Genotype, parentB: Genotype, handler: any }) {
-    let alleleGrid = calcPunnetSquare(parentA, parentB)
+export default function PunnetSquare({ flowerType, parentA, parentB, handler }: { flowerType: FlowerTypes, parentA?: Genotype, parentB?: Genotype, handler: any }) {
+    //maintain size while 
+    const [recentSize, setRecentSize] = useState<number>(4)
+    
+    if(parentA && parentB && parentA !== "" && parentB !== ""){
+        let alleleGrid = calcPunnetSquare(parentA, parentB)
 
-    return (
-        <div>
-            {gridBuilder(flowerType, alleleGrid, handler)}
-        </div>
-    )
+        return (
+            <div>
+                {gridBuilder(flowerType, handler, alleleGrid )}
+            </div>
+        )
+
+    } else { //One of the parents is missing, so make an empty grid for consistency
+        return (
+            <div>
+                {gridBuilder(flowerType, handler, undefined, recentSize)}
+            </div>
+        )
+    }
 }
