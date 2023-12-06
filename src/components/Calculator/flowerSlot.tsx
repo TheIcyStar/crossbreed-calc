@@ -8,8 +8,8 @@ const COLORS: { [key: string]: string } = {
     "White (seed)": "bg-purple-50",
     "White": "bg-purple-50",
     "Pink": "bg-pink-400",
-    "Red (seed)": "bg-red-600",
-    "Red": "bg-red-600",
+    "Red (seed)": "bg-red-600 text-white",
+    "Red": "bg-red-600 text-white",
     "Orange (seed)": "bg-orange-500",
     "Orange": "bg-orange-500",
     "Yellow (seed)": "bg-yellow-400",
@@ -17,7 +17,7 @@ const COLORS: { [key: string]: string } = {
     "Green": "bg-green-500",
     "Blue": "bg-blue-500",
     "Purple": "bg-purple-500",
-    "Black": "bg-neutral-900",
+    "Black": "bg-neutral-900 text-white",
 }
 
 function getColorAsTWCSSFromAllele(flowerType: FlowerTypes, allele: string): string {
