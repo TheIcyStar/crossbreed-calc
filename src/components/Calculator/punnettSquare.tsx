@@ -16,7 +16,7 @@ const COLORS: { [key: string]: string } = {
     "Green": "bg-green-500",
     "Blue": "bg-blue-500",
     "Purple": "bg-purple-700",
-    "Black": "bg-neutral-900 text-white",
+    "Black": "bg-neutral-900",
 }
 
 //Returns the possible permutations of a single parent's cross (This is what goes on the top and side of the punnet square)
